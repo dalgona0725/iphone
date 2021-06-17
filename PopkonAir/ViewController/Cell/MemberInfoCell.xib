@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Bold.otf">
+            <string>NotoSansCJKkr-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MemberInfoCell" rowHeight="25" id="RHV-ov-yn1" customClass="MemberInfoCell" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="187.66666666666666" height="25"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RHV-ov-yn1" id="H38-my-spJ">
+                <rect key="frame" x="0.0" y="0.0" width="187.66666666666666" height="25"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="19d-h7-7sI">
+                        <rect key="frame" x="5" y="4.5" width="177.5" height="16"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhA-97-9Wp" customClass="LevelIconButton" customModule="PopkonAir" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="atV-Fc-Xlb"/>
+                                    <constraint firstAttribute="width" constant="40" id="wr8-iZ-gwe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
+                                <state key="normal" title="FAN94">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5K6-TZ-qJ8" customClass="LevelIconButton" customModule="PopkonAir" customModuleProvider="target">
+                                <rect key="frame" x="44" y="0.0" width="40" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="PfJ-6D-NYr"/>
+                                    <constraint firstAttribute="height" constant="16" id="bBP-fS-uU7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
+                                <state key="normal" title="LV94">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nickname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ImY-Vh-g8Y">
+                                <rect key="frame" x="88" y="0.0" width="89.5" height="16"/>
+                                <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhZ-9K-Sav">
+                        <rect key="frame" x="0.0" y="0.5" width="187.5" height="24"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="Efm-10-mzL">
+                                <rect key="frame" x="5" y="0.0" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="HQS-S1-4xZ"/>
+                                    <constraint firstAttribute="height" constant="24" id="ctN-48-T5g"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nickname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxq-G0-umi">
+                                <rect key="frame" x="39" y="3" width="143.5" height="18"/>
+                                <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Efm-10-mzL" firstAttribute="leading" secondItem="AhZ-9K-Sav" secondAttribute="leading" constant="5" id="97S-EQ-wMj"/>
+                            <constraint firstItem="Fxq-G0-umi" firstAttribute="leading" secondItem="Efm-10-mzL" secondAttribute="trailing" constant="10" id="Op7-K8-tJO"/>
+                            <constraint firstAttribute="trailing" secondItem="Fxq-G0-umi" secondAttribute="trailing" constant="5" id="Pjr-zq-F1s"/>
+                            <constraint firstItem="Efm-10-mzL" firstAttribute="top" secondItem="AhZ-9K-Sav" secondAttribute="top" id="mPK-zp-VUj"/>
+                            <constraint firstAttribute="bottom" secondItem="Efm-10-mzL" secondAttribute="bottom" id="yDE-eY-waW"/>
+                            <constraint firstItem="Fxq-G0-umi" firstAttribute="centerY" secondItem="Efm-10-mzL" secondAttribute="centerY" id="zr9-ha-nEn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="AhZ-9K-Sav" firstAttribute="centerY" secondItem="H38-my-spJ" secondAttribute="centerY" id="9Dx-Uv-ogd"/>
+                    <constraint firstItem="AhZ-9K-Sav" firstAttribute="leading" secondItem="H38-my-spJ" secondAttribute="leading" id="BiW-wv-WCN"/>
+                    <constraint firstAttribute="trailing" secondItem="19d-h7-7sI" secondAttribute="trailing" constant="5" id="Obj-vT-l3X"/>
+                    <constraint firstItem="19d-h7-7sI" firstAttribute="centerY" secondItem="H38-my-spJ" secondAttribute="centerY" id="VOr-B0-Wgn"/>
+                    <constraint firstItem="19d-h7-7sI" firstAttribute="leading" secondItem="H38-my-spJ" secondAttribute="leading" constant="5" id="r0I-IR-ssE"/>
+                    <constraint firstAttribute="trailing" secondItem="AhZ-9K-Sav" secondAttribute="trailing" id="wfY-lA-uBP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="fanIcon" destination="hhA-97-9Wp" id="Juj-LP-aTW"/>
+                <outlet property="gradeIcon" destination="Efm-10-mzL" id="UAn-PS-qvF"/>
+                <outlet property="gradeView" destination="AhZ-9K-Sav" id="iaM-FA-BqU"/>
+                <outlet property="levelIcon" destination="5K6-TZ-qJ8" id="OAc-R9-LU2"/>
+                <outlet property="mainView" destination="19d-h7-7sI" id="EFL-Tp-wgs"/>
+                <outlet property="nicknameLabel" destination="ImY-Vh-g8Y" id="hGb-oZ-9TI"/>
+                <outlet property="nicknameLabel02" destination="Fxq-G0-umi" id="9qm-th-hfH"/>
+            </connections>
+            <point key="canvasLocation" x="-94" y="65"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="diamond" width="24" height="24"/>
+    </resources>
+</document>

@@ -1,0 +1,698 @@
+ui_notice = "알림";
+ui_close = "닫기";
+ui_cancel = "취소";
+ui_ok     = "확인";
+ui_pullRefresh = "Pull to refresh";
+ui_pm = "PM";
+ui_am = "AM";
+ui_full = "FULL";
+ui_numOfPerson = "명";
+ui_numOfRank = "위";
+ui_numOfCoin ="개";
+ui_numOfContent = "총 %@개 컨텐츠";
+ui_skip = "Skip";
+ui_AD = "광고";
+ui_serachPlaceholder = "검색어를 입력해주세요.";
+ui_update = "업데이트";
+ui_sortRecently = "최신";
+ui_sortPopular = "인기";
+ui_sortView = "시청";
+ui_sortRecommed = "추천";
+ui_sortRanking = "랭킹";
+ui_sortViewer = "시청자";
+ui_liveCast = "Live방송";
+ui_favorite = "즐겨찾기";
+ui_ranking = "랭킹";
+ui_onAir = "ON AIR";
+ui_offAir = "OFF AIR";
+ui_edit = "편집";
+ui_editDone ="완료";
+
+ui_unconfirmed = "미확인";
+ui_confirmed = "확인";
+ui_replyDone = "답변완료";
+ui_replyWaiting = "답변대기";
+
+vod_title = "VOD 다시보기";
+
+ui_login = "로그인하기";
+ui_logout = "로그아웃";
+ui_unknown = "비회원";
+ui_userCoin = "보유 %@";
+ui_loginDesc = "더 많은 컨텐츠를\n즐기시려면 로그인!";
+
+ui_authorization = "본인 인증";
+ui_findIDPwd    = "아이디/비밀번호 찾기";
+ui_report = "신고하기";
+
+info_myInfo = "내정보";
+info_headerShop = "스토어";
+info_headerNetwork = "네트워크 설정";
+info_headerApp = "프로그램 정보";
+info_buyCoin = "%@ 구매하기";
+info_logGetCoin = "%@ 받은내역";
+info_logUseCoin = "%@ 사용내역";
+info_useLTE = "3G/LTE 사용알림";
+info_version = "버전";
+
+chat_send = "전송";
+chat_enable = "채팅을 입력해 주세요~!";
+chat_needLogin = "채팅은 로그인 후 이용 가능합니다.";
+
+cast_backScene = "전 화면으로 돌아가시겠습니까?";
+cast_close = "방송을 종료 하시겠습니까?";
+cast_block = "운영자가 방송을 차단하였습니다.";
+
+favorite_follow = "즐겨찾기 등록하였습니다.";
+favorite_unfollow = "즐겨찾기 해제하였습니다.";
+
+mc_fanclub = "님의 팬클럽 채널";
+
+watch_terminate = "시청을 종료 하시겠습니까?";
+watch_close = "방송이 종료되었습니다.";
+
+watch_gift = "선물하기";
+watch_giftNumOfCoin01= "%@ 개수를 입력해주세요";
+watch_giftNumOfCoin02= "%@ 개수을 입력해 주시기 바랍니다.";
+watch_didGift = "선물 하였습니다.";
+watch_didRecommend = "추천 하였습니다.";
+watch_decommendation = "비추천하였습니다.";
+
+cast_start = "방송하기";
+cast_normalCast = "일반방송";
+cast_fanCast = "팬클럽방송";
+cast_payCast = "유료방송";
+cast_lowQuality = "저화질";
+cast_normalQuality = "표준";
+cast_highQuality = "고화질";
+
+favorite_deleteMC = "%@님을 즐겨찾기 삭제하시겠습니까?";
+
+err_logigMutiple = "다른기기에서 로그인 하였습니다.";
+err_notCasting = "현재 방송 중이 아닙니다.";
+err_need2moreCharacters = "2자 이상 입력해주세요.";
+err_disableNetwork = "네트워크가 원활하지 않습니다.\n인터넷 연결 상태를 확인하고 다시 시도해주세요.";
+err_needUpdate = "최신버전이 아닙니다.업데이트 하겠습니까?";
+err_needLoginforUse = "로그인 후 이용이 가능합니다.";
+
+login_needLogin = "로그인 후 이용이 가능합니다.\n로그인 하시겠습니까?";
+cast_needPassword = "비밀번호를 입력해주세요.";
+cast_putPssword  = "비밀번호를 입력해 주시기 바랍니다.";
+
+vod_successFanJoin = "팬 가입하였습니다.";
+
+err_needLogin = "로그인을 하셔야 합니다.";
+err_needCoin = "%@이 부족합니다.";
+err_wrongIDPW = "아이디와 비밀번호를 확인해 주시기 바랍니다.";
+
+err_cantRecordOnPlay = "화면 녹화중에는 방송 시청이 불가능합니다.";
+err_cantRecordOnPreview = "화면 녹화중에는 미리보기 할 수 없습니다.";
+err_cantPlayLive     = "시청할 수 없는 방송입니다.";
+err_needAdultCertForUse = "성인 인증 후 시청이 가능합니다.";
+err_needAdultCert    = "해당 방송은 성인 인증이 필요합니다.";
+err_cantPlayAsKid    = "미성년 회원은 시청할 수 없습니다.";
+err_alreadyFavorite  = "이미 즐겨찾기한 방송자 입니다.";
+err_alreadyRecommend = "이미 추천하였습니다.";
+err_noFavorite       = "즐겨찾기한 방송자가 없습니다.";
+err_needReportText   = "신고사유를 입력해주세요.";
+err_dontCastChild    = "미성년자 회원은 방송을 진행할 수 없습니다.";
+
+text_shouldUseFullview = "시청인원이 초과되어 풀방입장권 아이템 사용이 필요합니다. 아이템을 사용하시겠습니까?";
+text_shouldBuyFullview = "시청인원이 초과되어 시청이 불가능합니다. 아이템을 구매하시겠습니까?";
+text_becameFan         = "팬 가입하였습니다.";
+text_doneLogin         = "로그인 하였습니다.";
+text_doneFavorite      = "즐겨찾기 하였습니다.";
+text_doneReport        = "신고하였습니다.";
+text_inputReport       = "내용을 입력해 주세요.";
+text_doneRecommend     = "추천하였습니다.";
+
+err_needPermissionCameraAndMic = "카메라와 마이크 접근허용이 필요합니다. 확인을 누르시면 설정으로 이동합니다.";
+err_needPermissionCamera = "카메라 접근허용이 필요합니다. 확인을 누르시면 설정으로 이동합니다.";
+err_needPermissionMic = "마이크 접근허용이 필요합니다. 확인을 누르시면 설정으로 이동합니다.";
+
+text_needLoginforSite = "사이트를 이용하시려면 로그인을 해주세요\r";
+text_successLogin     = "로그인 하였습니다.";
+text_requiredInformation = "기본정보를 입력해주세요.";
+
+ui_buyItem = "아이템 구매";
+ui_myItem = "내 아이템";
+ui_myChannel = "마이채널";
+ui_myChannelBanKeyword = "채팅금지어 설정";
+ui_pushAlarm = "푸시알림";
+ui_settingAlarm = "알림 설정";
+ui_settingAlarmFreeTime = "알림 휴식시간 설정";
+ui_casterAlarm = "방송자별 알림 설정";
+ui_recommendCastAlarm = "추천 방송 알림";
+ui_settingEventAlarm = "이벤트 푸시 알림 설정";
+ui_eventAlarm = "이벤트 알림";
+ui_noUse = "  (사용안함)";
+ui_offAlarm = "알림꺼짐";
+ui_customCenter = "고객센터";
+ui_freeEnroll = "무료 회원가입";
+ui_termsAgreement = "서비스 약관 동의";
+ui_termsOfuse = "이용약관";
+ui_privacyPolicy = "개인정보 취급방침";
+ui_authCode = "인증번호";
+ui_sendAgain = "재전송";
+
+text_doneEnroll = "회원 가입이 완료되었습니다.";
+err_need1mintueSendAgain = "1분 후 발송 가능합니다.";
+err_check4digitCode = "인증번호 4자리를 다시 확인해 주세요.";
+err_overtimeAuthCode = "시간이 초과 되었습니다.\n인증번호를 다시 발송해 주세요.";
+
+err_needTurnOnAlarm = "알림 기능이 꺼져 있습니다. 확인을 누르시면 설정으로 이동합니다.";
+err_cantUseAlarm = "알림 설정 사용이 불가능합니다.";
+err_cantFavoriteMine = "본인을 즐겨찾기할 수 없습니다.";
+err_cantUseHere = "여기서는 사용할 수 없습니다.";
+err_needAgreement = "필수 항목에는 동의처리하셔야 합니다.";
+err_writeAuthCode = "전송된 인증번호를 입력해주세요.";
+
+err_noError = "이상없음";
+err_membershipPWNotSame   = "비밀번호를 확인해주세요.";
+err_membershipPWIsEmpty   = "비밀번호를 입력해주세요.";
+err_membershipPWMoreLong  = "비밀번호를 6자 이상 입력해주세요.";
+err_membershipIDMoreLong  = "아이디를 4자이상 입력하세요.";
+err_membershipIDisEmpty   = "아이디를 입력해주세요.";
+err_membershipIDNeedCheck = "아이디 중복확인을 해주세요.";
+err_membershipIDAlready   = "중복된 아이디입니다. 다른 아이디를 사용해 주세요.";
+err_membershipIDOK        = "사용 가능한 아이디입니다.";
+err_membershipNickisEmpty = "닉네임을 입력해주세요.";
+err_membershipNickNeedCheck = "닉네임을 조회해주세요.";
+err_membershipNickMoreLong = "사용할 닉네임을 2자이상 입력하세요.";
+err_membershipNickAlreadyPremium = "프리미엄 닉네임은 사용할 수 없습니다.";
+err_membershipNickOK      = "사용 가능한 닉네임입니다.";
+
+ui_changePassword = "비밀번호 변경";
+err_illegalwordForPassword = "비밀번호는 6~20자, 숫자, 특수문자만 사용 가능합니다.";
+err_needWritePasswordAgain = "비밀번호 확인을 위해 한번 더 입력해 주세요.";
+err_notMatchPassword = "비밀번호 확인이 일치하지 않습니다.";
+text_doneChangePassword = "정보가 변경 되었습니다.\n로그인 페이지로 이동합니다.";
+text_doneVerifyYourself = "본인 인증이 완료되었습니다.";
+
+ui_verifyPhoneNumber = "휴대폰 인증";
+ui_nextPage = "다음";
+ui_needPhoneNumberforEnroll = "회원가입을 위해 휴대폰번호가 필요합니다.";
+
+text_lockRotation = "화면 회전을 잠궜습니다.";
+text_unlockRotation = "화면 회전 잠금을 풀었습니다.";
+text_lockRotationState = "화면 회전이 잠금 상태입니다.";
+err_cantWatchNoAuth = "본인인증이 안되어 시청할 수 없습니다.";
+
+ui_startBroadcast = "방송 시작";
+err_needListItem = "리스트업 아이템이 존재하지 않습니다.\n구매후 이용해주세요.";
+
+text_supervisor = "관리자";
+text_attachedFile = "첨부파일: %@";
+text_noAttachedFile = "첨부파일: 없음";
+
+text_letter = "쪽지";
+text_letterPost = "쪽지함";
+text_noLetter = "쪽지가 없습니다.";
+text_replyLetter = "답글";
+text_watch = "시청";
+text_viewerCount = "명";
+text_onSiren = "경고음 송출중";
+
+text_sender         = "보낸사람";
+text_receiver       = "받는사람";
+text_sendLetter     = "보낸쪽지";
+text_receivedLetter = "받은쪽지";
+text_sendDate       = "보낸날짜";
+text_receiveDate    = "받은날짜";
+text_letterContent  = "내용";
+text_isReceived     = "수신여부";
+text_removeLetter   = "쪽지를 삭제 하시겠습니까?";
+text_doneSendLetter = "%@님에게 쪽지를 보냈습니다.";
+
+ui_sendLetter       = "쪽지보내기";
+ui_letterCount      = "%@/1000자";
+err_inputReceiverID = "받는 사람 아이디를 입력해 주세요.";
+err_inputLetter     = "쪽지 내용을 입력해 주세요.";
+err_cantSendtoMe    = "본인에게는 쪽지를 보낼 수 없습니다.";
+
+text_watcherEnter = "님이 들어오셨습니다.";
+text_headerTitle = "제목";
+text_writtenDate = "등록일";
+text_isReplyed = "답변여부";
+text_information01 = "화면을 탭하면 입력할 수 있습니다.";
+text_needPermissionGoToSetting = "접근 권한을 설정해야 됩니다. 확인을 누르시면 설정으로 이동합니다.";
+
+ui_textColor = "글자색";
+ui_backgroundColor = "배경색";
+ui_textSize = "글자크기";
+ui_moreDetail = "자세히 보기";
+
+text_skipAD = "초 후에 광고 건너뛰기";
+text_directInput = "직접입력";
+text_unknown = "알수없음";
+text_evenrt = "이벤트";
+text_luxury = "럭셔리";
+text_asending = "두산";
+text_series = "연속";
+text_present = "선물";
+text_totalPresent = "총 선물 %@";
+text_buyCoin = "%@ 구매";
+text_start = "시작";
+text_end = "끝";
+text_number = "개수";
+text_repeat = "횟수";
+
+text_asedningDescription = "시작 개수부터 끝 개수까지\n누적으로 %@이 자동선물 됩니다.";
+text_seriesDescription = "설정하신 %@ 개수가\n해당 횟수만큼 자동 선물 됩니다.";
+text_second = "초";
+
+text_grade = "등급";
+text_nofanlevel = "팬등급 없음";
+text_manager = "매니저";
+text_assignManager = "매니저임명";
+text_dismissManager = "매니저해제";
+text_quit = "강퇴하기";
+text_warn = "경고하기";
+text_login = "로그인";
+
+ui_setSecurity = "보안설정";
+ui_own = "보유";
+text_AppLock = "앱 잠금";
+err_needSetPassword = "패스워드 설정이 필요합니다.";
+err_cantUse = "사용 불가능 합니다.";
+
+ui_save = "저장";
+ui_settingTime = "시간대 설정";
+ui_startTime = "시작시간";
+ui_endTime = "종료시간";
+text_saveChanged = "변경된 사항을 저장하겠습니까?";
+err_noChanged = "변경된 내용이 없습니다.";
+
+text_inputUserID = "회원아이디를 입력하세요.";
+text_dismissSomeone = "%@ 님을 매니저 해제하겠습니까?";
+text_doneDismissSomeone = "%@ 님을 매니저 해제했습니다.";
+text_assignSomeone = "%@ 님을 매니저 임명하겠습니까?";
+text_doneAssignSomeone = "%@ 님을 매니저 임명했습니다.";
+text_alreadyKickSomeone = "%@ 님은 이미 강퇴되었습니다.";
+text_kickSomeone = "%@ 님을 강퇴시키겠습니까?";
+text_doneKickSomeone = "%@ 님을 강퇴하셨습니다.";
+text_warnSomeone = "%@ 님을 경고하겠습니까?";
+text_doneWarnSomeon = "%@ 님을 경고했습니다.";
+text_doneChangedCast = "방송 설정이 변경되었습니다.";
+text_disconnectedCast = "방송 연결이 끊겼습니다.";
+err_cantSurrportDevice = "해당 장치는 기능을 지원하지 않습니다.";
+err_faildConnectCast = "방송 연결이 실패하였습니다.\n다시 시도해주세요.";
+err_cantManagerbyCaster = "본인은 매니저로 지정할 수 없습니다.";
+err_cantUseTextMode = "폴리스 얼리기 진행 시에는 텍스트 효과 모드를 사용하실 수 없습니다.";
+text_firstGift = "%@님 방송에 [%@(%@)]님이 최초로 %@개 %@을 선물하셨습니다. 감사합니다.";
+
+text_verticalCast   = "세로방송";
+text_horizontalCast = "가로방송";
+text_inputCastTitle = "방송제목을 입력해주세요.";
+
+text_normal = "일반";
+text_premium = "프리미엄";
+
+text_siverFan = "실버";
+text_goldFan = "골드";
+text_daiaFan = "다이아몬드";
+text_vipFan = "VIP";
+text_total = "전체";
+text_under = "미만";
+
+text_freeze = "얼리기";
+text_unfreeze = "녹이기";
+
+text_caramel = "카라멜";
+text_sweet = "스위트";
+text_onion = "어니언";
+
+text_goldRose = "골드로즈";
+text_perfume = "향수";
+text_shoes = "구두";
+text_handbag = "고급핸드백";
+text_goldBar = "골드바";
+text_daimondRing = "다이아반지";
+text_sportCar = "스포츠카";
+text_yacht = "요트";
+text_penthouse = "펜트하우스";
+
+text_liveCast = "Live";
+text_vodContents = "Vod";
+text_bigfanList = "열혈팬 목록";
+
+text_totalRanking = "전체랭킹";
+text_rookieRanking = "신인MC랭킹";
+text_liveRanking = "실시간랭킹";
+text_weekendRanking = "주말랭킹";
+text_weekRanking = "주간랭킹";
+text_monthRanking = "월간랭킹";
+
+text_waitingForAD = "잠시만 기다려주세요. 지금은 광고 시청중입니다.";
+text_waiting = "잠시만 기다려주세요.";
+err_diconnectedClose = "방송 연결이 끊겨서 종료됩니다.";
+text_quitGifting = "%@ 선물을 종료하시겠습니까?";
+text_doneCompleteGifting = "%@ 선물이 종료 되었습니다.";
+text_doneQuitGifting = "%@선물이 중단 되었습니다.";
+text_sendBySupervisor = "관리자 승인 후 순차적으로 발송 됩니다.";
+text_gotoBuy = "%@을 구매하러 가겠습니까?";
+text_giftCoin = "%@ %@개을(를) 선물하시겠습니까?";
+text_giftSomething = "%@을(를) 선물하시겠습니까?";
+text_giftCoinCount =  "%@개를 선물하시겠습니까?";
+text_inputCoinCount = "%@ 개수를 입력해주세요.";
+text_lackofStuff = "%@이 부족합니다.\n구매하러 가시겠습니까?";
+text_nowGifting ="%@ 선물이 진행 중입니다. %@선물 종료 후 다시 시도해주시기 바랍니다.";
+text_giftInformation01 =  "네트워크 상태에 따라 선물시간에 변동이 있을 수 있습니다.";
+err_stopGiftLackOfCoin = "보유 %@이 부족하여 선물이 자동중단 되었습니다.";
+
+ui_customCenterNotice = "공지사항";
+ui_customCenterInquiry = "일대일 문의";
+ui_customCenterInquiryTitle = "1:1 문의하기";
+ui_copyrightNotice = "저작권 공지";
+
+text_inquiryContent = "문의 내용";
+text_replyContent = "답변 내용";
+
+text_choice = "선택해주세요";
+text_aboutCoin = "%@ 충전 및 결제 오류";
+text_aboutFunction = "기능 관련";
+text_aboutRestriction = "제재 관련";
+text_aboutMembership = "회원 가입/탈퇴";
+text_aboutBroadcast = "방송 관련 문의";
+text_aboutWatching = "시청 관련 문의";
+text_aboutRefund = "환불 문의";
+text_aboutInstall = "프로그램 설치 문의";
+text_aboutExchange = "환전 신청 및 본인인증";
+text_aboutReport = "제보";
+text_aboutEtc = "기타";
+
+text_attachedFilename = "첨부 파일명";
+text_inputTitle = "제목을 적어주세요.";
+text_chooseCategory = "구분을 선택해주세요.";
+text_inputInquiryContent = "문의 내용을 적어주세요.";
+
+err_wrongAttachedFile = "첨부 파일이 잘못되었습니다.";
+err_onlyAttachJpegOrPng ="JPEG, PNG 파일만 첨부가능합니다.";
+err_failedSendingFile = "파일 전송을 실패했습니다.";
+err_only10MBfile = "10MB 이내의 이미지 파일만 가능합니다.";
+
+text_membershipText00 = "전체약관의 동의합니다";
+text_membershipText01 = "%@ 이용약관 (필수)";
+text_membershipText02 = "개인정보 취급방침 (필수)";
+text_membershipText03 = "고객문의 및 고객대응 한정\n전화번호 활용 (필수)";
+text_membershipText04 = "이벤트/마케팅 수신 동의 (선택)";
+
+text_membershipDesc01 = "정보통신망 이용촉진 및 정보보호 등에 관한 법률 제23조의 2(주민등록번호의 사용제한)에 따라 어떠한 경우라도 주민등록번호를 수집하지 않습니다.";
+text_membershipDesc02 = "휴대폰 실제 소유자와 명의인이 다를 경우 인증 받을 수 없으며 타인의 개인정보를 도용할 경우 관계법에 의해 처벌될 수 있습니다.";
+text_membershipDesc03 = "본인 명의의 휴대폰만 사용가능하며 약관 외 다른 용도로 사용되지 않습니다.";
+
+text_assign = "지정";
+text_unassign = "해제";
+text_operator = "운영자";
+text_caster = "방송자";
+
+err_failedConnectNetwork = "네트워크 연결에 실패했습니다.";
+text_freezebyCaster = "방송자가 채팅을 얼렸습니다.";
+text_unfreezebyCaster = "방송자가 채팅방을 풀었습니다.";
+
+text_warnUserMessage01 = "%@님 그만!, 이런 채팅은 안 돼요, 안 돼!";
+text_warnUserMessage02 = "%@님 잠시만요~ 1분만 쉬어 가세요";
+text_warnUserMessage03 = "%@님 잠깐! 3분동안 진정하세요~";
+text_warnUserMessage04 = "%@님 얼음! 저는 5분 뒤에 녹아요!";
+text_warnUserMessage05 = "%@님 스톱!! 10분동안 그대로 멈춰라!";
+
+text_blockChatMessage01 = "채팅 %@분%@초 동안 차단되어 있습니다.";
+text_blockChatMessage02 = "채팅 %@초 동안 차단되어 있습니다.";
+text_startBroadcasting = "방송이 시작되었습니다.";
+
+text_disableChat = "채팅사용 불가";
+text_spamChatTime = "도배성 채팅으로 채팅이 금지되고 %@초 후에 다시 채팅이 가능합니다.";
+ui_relogin = "다시 로그인하기";
+
+err_failedCertify = "인증에 실패했습니다.";
+err_needCertify = "앱을 풀려면 인증이 필요합니다.";
+err_needReinstall = "잠김에 풀리지 않으면 재설치 바랍니다.";
+
+text_sortLatest = "최신순";
+text_sortHotest = "인기순";
+text_sortRecommend = "추천순";
+text_sortViewer = "시청자순";
+text_sortTotal = "종합순";
+text_sortFavorite = "즐겨찾기순";
+text_sortView = "시청순";
+
+err_wrongPassword = "비밀번호가 틀렸습니다.";
+err_invalidID = "없는 아이디 입니다.";
+err_wrongNetwork01 = "네트워크가 원활하지 않습니다.\n[A:%@]";
+err_wrongNetwork02 = "네트워크가 원활하지 않습니다.\n다시 시도해주세요. [A:%@]";
+err_wrongNetwork03 = "네트워크가 원활하지 않습니다.\n인터넷 연결 상태를 확인하고 다시 시도해주세요.";
+
+ui_assignManager = "매니저 임명";
+ui_managerID = "매니저 아이디";
+ui_giftSomething = "%@ 선물";
+
+text_loginPolicyMainTitle = "%@ 준수사항 및 정책";
+text_loginPolicySubTitle01 = "아동 및 청소년보호정책";
+text_loginPolicySubTitle02 = "방송 준수 사항";
+text_loginPolicyContent = "%@는(은) 청소년들이 유해 정보에 접근할 수 없도록 방지하는 인증 장치 및 관리 조치를 취하고 있으며, 청소년이 건전한 인격체로 성장할 수 있도록 청소년 보호 정책 수립 및 시행에 최선을 다하고 있습니다.\n\n1.%@는(은) 만 14세 이상의 이용자만 방송이 가능합니다.\n\n2.%@는(은) 아주 작은 욕설이나 음주, 흡연이 포함되더라도 이를 성인 컨텐츠로 분류하여 청소년의 접근을 차단합니다.\n\n3.%@는(은) 모든 회원을 상대로 본인 인증을 실시하고, 청소년이 성인컨텐츠를 절대 접근할 수 없도록 엄격하게 차단합니다.\n\n4.%@는(은) 방송통신심의위원회의 '원스트라이크아웃제도'를 시행 및 준수하고 있으며 청소년의 불법유해정보 유통 근절을 위하여 24시간 실시간 모니터링을 진행하고 있습니다.";
+text_broadcastPolicyContent = "아래 내용의 방송을 하지 않겠습니다.\n\n● 저작권 침해\n● 저속/음란한 방송\n● 사생활, 초상권 침해\n● 욕설/언어폭력\n● 음주, 흡연, 잔인하거나 폭력적인 장면\n● 도박 등 사행성 방송\n● 공공질서 및 미풍양속에 위배되는 방송\n\n위 내용의 방송이 신고,적발될 경우 서비스 이용에 제한을 받을 수 있으며, 이용정지 및 선물받은 아이템이 몰수될 수 있습니다.\n본 방송에 출연하는 자들에 대하여 해당 방송자가 사전 동의를 받았음을 전제로 하는바, 만약 동의하지 않는 경우에는 지체 없이 이를 회사에 알려주시기 바랍니다.";
+text_needAgreement01 = "항목에 체크하셔야 이용이 가능합니다.";
+text_needAgreement02 = "각각 항목에 체크하셔야 이용이 가능합니다.";
+
+text_eventPushTitle = "이벤트 푸시 알림 수신 동의(선택)";
+text_eventPushContent = "이벤트 푸시 알림에 수신 동의를 하시면\n이벤트 및 방송정보 알림을 받을 수 있습니다.\n\n1.%@ 이벤트 알림 푸시\n2.특정 방송의 알림 푸시\n3.그외 이벤트 광고 알림 푸시";
+text_needPushOn = "푸시 알림기능이 꺼져 있습니다.\n설정에서 알림을 켜주세요.";
+
+text_useLTEData = "이동통신망(3G/LTE 등)으로 접속 시 데이터 통화료가 발생할 수 있습니다.";
+text_watchNotice = "방송을 시청하시기 전 아래의 내용을 반드시 확인하시기 바랍니다.\n\n";
+text_watchContent = "1. 본 정보내용은 청소년에게 유해한 정보를 포함하고 있어 정보통신망 이용촉진 및 정보보호등에 관한 법률 및 청소년 보호법의 규정에 의하여 만 19세 미만의 청소년이 이용할 수 없습니다.\n\n2. 방송을 시청하면서 불법 유해정보라 판단되는 내용이 있다면 즉시 『신고』 버튼을 눌러 방송신고를 진행해 주시기 바랍니다.";
+
+ui_joinFanClub = "팬 가입";
+ui_useCoin = "%@ 사용";
+
+ui_noListup = "사용 안함";
+ui_silverListup = "리스트업 실버";
+ui_goldListup = "리스트업 골드";
+
+text_MCRank = "MC순위";
+text_MCFanCount = "팬수";
+text_MCFavoriteCount = "즐겨찾는 회원수";
+text_myGrade = "내 등급";
+ui_MembershipJoinButton = "회원가입";
+ui_findIDPWButton = "아이디/비밀번호찾기";
+
+text_ID = "아이디";
+text_Password = "비밀번호";
+text_checkPassword = "비밀번호 확인";
+text_nickname = "닉네임";
+text_checkDuplication = "중복확인";
+text_checking = "조회";
+
+text_inputID = "아이디를 입력해주세요.";
+text_passwordCondion = "6~20자 영문, 숫자, 특수문자만 사용 가능합니다.";
+text_onemorePassword = "비밀번호를 한번 더 입력해주세요.";
+text_inputNickname = "닉네임을 입력해주세요.";
+text_inputCertifyCode = "인증번호 입력(4자리)";
+
+text_userPhoneNumber = "휴대폰 번호";
+text_inputPhoneNumber = "휴대폰번호('-'제외 숫자만 입력)를 입력해 주세요.";
+ui_retrySend = "재발송";
+ui_newPassword = "새비밀번호";
+ui_checkNewPassword = "새비밀번호확인";
+text_inputOnemorePassword = "비밀번호 한 번 더 입력";
+ui_change = "변경하기";
+ui_changed = "변경";
+
+ui_actionReply = "답장하기";
+ui_actionDelete = "삭제하기";
+text_receiverID = "받는사람 ID";
+text_category = "구분";
+text_inputTitle01 = "제목을 입력하세요.";
+text_attachFile = "파일첨부";
+text_inquiryTitle = "문의하기";
+text_findFile = "파일찾기";
+text_only10MBfile = "10MB 이내의 이미지 파일만 업로드 가능합니다.";
+
+ui_broadTitle = "방송제목";
+ui_broadPassword = "비밀번호";
+ui_broadType = "방송형태";
+ui_broadCategory = "방송주제 분류";
+ui_broadQuality = "방송화질";
+ui_broadListup = "리스트업 아이템";
+ui_broadViewerCount = "시청인원";
+ui_broadAdult = "19금방송";
+ui_broadOrientation = "방송화면";
+ui_broadMode = "방송모드";
+ui_broadFanclub = "팬클럽선택";
+ui_broadEntranceFee = "입장료";
+
+ui_tabLive = "Live";
+ui_tabVod = "다시보기";
+ui_tabFavorite = "즐겨찾기";
+ui_tabRanking = "랭킹";
+ui_tabMyInfo = "내정보";
+
+
+login_sns_title = "연동 로그인";
+login_id = "아이디";
+login_pwd = "비밀번호";
+login_find_id = "아이디 찾기";
+login_find_pwd = "비밀번호 찾기";
+login_naver = "Naver로 로그인";
+login_kakao = "KakaoTalk으로 로그인";
+login_facebook = "Facebook으로 로그인";
+login_google = "Google로 로그인";
+login_line = "LINE으로 로그인";
+login_email = "이메일";
+login_nickname = "닉네임";
+login_join = "가입하기";
+login_join_email_is = " 으로";
+login_join_email = "가입인증 메일이 발송되었습니다.";
+login_email_auth = "발송된 메일을 확인하여 인증을 완료해주시기 바랍니다.";
+login_join_info1 = "이용약관 및 개인정보취급방취에 모두 동의 합니다.";
+login_join_info2 = "만 14세 이상입니다.";
+login_join_info3 = "이벤트, 방송정보등의 SMS/E-mail 수신 동의합니다.";
+login_nickname_info = "닉네임을 입력해주세요.";
+login_nickname_two = "닉네임은 한글,영문,숫자,일부 특수문자 2~8자 이내로 입력하세요.";
+login_nickname_no_special = "닉네임은 특수문자를 사용할 수 없습니다.";
+login_nickname_possible = "사용가능한 닉네임입니다.";
+login_nickname_impossible = "사용 할 수 없는 닉네임입니다.";
+login_id_info = "아이디를 입력해주세요.";
+login_pwd_info = "비밀번호를 입력해주세요.";
+login_email_nickname_info = "이메일과 닉네임을 입력해주세요.";
+login_email_id_info = "이메일과 아이디를 입력해주세요.";
+login_find_pwd_email = "회원님의 이메일로 임시 비밀번호를 발송하였습니다.";
+login_requid = "필수";
+login_optional = "선택";
+login_join_complete_title = "회원가입 완료";
+login_join_complete_button = "홈으로 이동";
+login_join_complete_info = "이메일 인증 후 셀럽티비의 모든 컨텐츠를 사용하실 수 있습니다.";
+login_no_content = "아이디와 비밀번호를 \n 확인해 주시기 바랍니다.";
+login_join_complete_info2 = "님의";
+
+join_login_id_four = "아이디를 4글자 이상 입력해주세요.";
+join_login_id_special = "아이디는 한글, 특수문자를 사용할 수 없습니다.";
+join_login_id_possible = "사용가능한 아이디입니다.";
+join_login_id_impossible = "사용할 수 없는 아이디입니다.";
+join_login_pwd_special = "비밀번호는 한글을 사용 할 수 없습니다.";
+
+login_title_login = "로그인";
+login_title_join = "회원가입";
+
+
+comm_done = "완료";
+
+
+bottom_privacy_policy = "개인정보처리방침";
+bottom_terms_of_use = "이용약관";
+bottom_faq = "고객센터";
+bottom_notice = "공지사항";
+
+menu_loginbtn_text = "로그인";
+mypage_email_notext = "이메일을 입력해주세요.";
+mypage_email_possible = "사용 가능한 이메일 입니다.";
+mypage_email_impossible = "사용할 수 없는 이메일 입니다.";
+mypage_pwd_six = "최소 6글자 이상 입력해주세요.";
+mypage_pwd_possible = "사용이 가능한 비밀번호 입니다.";
+
+live_fanclub_denied = "팬 방송은 시청이 불가능합니다.";
+live_pay_denied = "유료 방송은 시청이 불가능합니다.";
+live_adult_denied = "19세 미만은 시청이 불가능합니다.";
+
+text_verify_website = "본인 인증 후 이용이 가능합니다.\n웹사이트에서 인증을 진행해주세요.";
+text_no_content = "%@ 리스트가 없습니다.";
+ui_reply = "댓글";
+text_reply_placeholder = "댓글을 입력해주세요.";
+text_replyletter_placeholder = "답글을 입력해주세요.";
+text_replyletter_no_content = "답글이 없습니다.";
+text_reply_no_content = "댓글이 없습니다.";
+
+vod_terminate = "컨텐츠 시청을 종료 하시겠습니까?";
+
+text_do_login = "로그인하기";
+text_more_contents = "더 많은 컨텐츠를 즐기시려면 로그인!";
+popup_agree = "동의함";
+popup_not_agree = "동의안함";
+popup_broadcast_notice = "방송 공지";
+popup_notice_placeholder = "방송 입장시 출력되는 내용을 입력해주세요.";
+popup_setting_broadcast = "방송 설정";
+text_user_list = "참여자 목록";
+text_user_count = "참여수";
+text_recommend_count = "추천수";
+text_favor_count = "즐찾수";
+text_no_search_content = "검색결과가 없습니다";
+text_view_all = "더보기";
+ui_news = "연예뉴스";
+login_join_complete_info3 = "회원가입을 환영합니다!";
+
+ui_popup_delete = "댓글을 삭제하시겠습니까?";
+live_fullview_denied = "시청 인원이 초과되어 시청이 불가능합니다.";
+
+ui_popup_reply_delete = "답글을 삭제하시겠습니까?";
+ui_popup_logout_do = "로그아웃 하시겠습니까?";
+text_fullView = "시청인원이 초과되어 시청이 불가능합니다.";
+text_preparing = "준비중입니다.";
+
+live_sortLatest = "최신";
+live_sortHotest = "인기";
+live_sortView = "시청자";
+
+filter_original = "원본";
+filter_black_white_i = "흑백I";
+filter_black_white_ii = "흑백II";
+filter_warm_i = "따뜻한I";
+filter_warm_ii = "따뜻한II";
+filter_vintage_i = "빈티지I";
+filter_vintage_ii = "빈티지II";
+filter_dark = "어둡게";
+
+cast_memberList = "참여자 목록";
+cast_sort_fan = "팬등급";
+cast_sort_fanLevel = "팬레벨순";
+cast_sort_entrance = "입장순";
+cast_sort_latestEntranced = "최신입장순";
+
+text_smsMessege_join = "Celuv.vn 회원가입 하고 계십니다. 보안코드는: %@";
+text_smsMessege_pw = "Celuv.vn에서 비밀번호 재생성을 요청하셨습니다. 인증코드는: %@";
+
+info_myCoinLog = "%@ 내역";
+text_noContentCounsel = "등록된 내용이 없습니다.";
+
+ui_helper_menu_title = "%@ 도우미";
+ui_helper_popup_title = "%@ 프리셋 설정";
+ui_helper_menu_setup = "프리셋 위치 변경";
+ui_helper_menu_alert = "알림";
+ui_helper_menu_goal = "목표치";
+ui_helper_menu_subtitle = "후원자막";
+ui_helper_menu_banner = "배너";
+ui_helper_menu_chat = "채팅";
+text_helper_menu_tip = "적용 중인 프리셋을 변경하면 기존 내역이 초기화 됩니다.";
+err_helper_no_preset = "프리셋이 없습니다.\nPC웹의 %@ 도우미에서 프리셋을 추가한 후 이용하세요.";
+err_helper_cant_setup = "위치 변경할 프리셋이 없습니다.";
+err_helper_need_update = "iOS 11으로 업데이트 후 이용하시기 바랍니다.";
+
+ui_commerce_view_title = "커머스 방송";
+text_commerce_adult_goods = "성인용 제품은 19금 방송으로 진행됩니다.";
+
+text_NoMemberList = "참여자가 존재하지 않습니다.";
+text_mimatchedCase01 = "회원 정보가 수정되어 방송정보 적용이 불가능합니다. 다시 로그인 후 시도해주세요.";
+text_mimatchedCase02 = "회원 정보가 수정되어 참여자를 불러올 수 없습니다. 다시 로그인 후 시도해주세요.";
+
+text_level_mc = "방송자 레벨";
+text_level_fan = "팬 레벨";
+text_level_service = "서비스 레벨";
+text_level_up = "LEVEL UP!";
+text_level_up_info01 = "레벨업";
+text_level_up_info02 = "이 올랐습니다.";
+text_level_chat_up = "%@ 님이 %@ %@으로(로) 레벨업하셨습니다.";
+info_level = "레벨";
+text_sort_bigfanList = "열혈팬";
+text_sort_fanLevelList = "팬레벨";
+text_noResult_bigfanList = "열혈팬 리스트가 없습니다.";
+text_noResult_fanLevelList = "팬레벨 리스트가 없습니다.";
+
+ui_snsEnroll = "간편 회원가입";
+text_membership_required = "(필수)";
+text_membershipText05 = "만 14세 이상입니다.(필수)";
+err_membershipNickMoreSNS = "닉네임은 한글,영문,숫자, 일부 특수문자 2~8자 이내로 입력하세요.";
+err_membershipEmailNeedCheck = "이메일을 조회해주세요.";
+text_searchHistory = "검색어를 선택하시면 바로 검색이 됩니다.";
+text_view_count = "조회수 %@회";
+text_price = "%@원";
+text_commerce_list_header = "라이브 판매상품 (%@)";
+text_commerce_list_replay_header = "판매상품 (%@)";

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="183" id="KGk-i7-Jjw" customClass="FooterTableViewCell" customModule="Celuv" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="157"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="156.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O3b-Po-zwM">
+                        <rect key="frame" x="82" y="82.5" width="250" height="17"/>
+                        <subviews>
+                            <button opaque="NO" tag="603" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91k-tQ-Mby">
+                                <rect key="frame" x="0.0" y="0.0" width="52" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="B6w-ME-zRu"/>
+                                </constraints>
+                                <state key="normal" title="이용약관">
+                                    <color key="titleColor" red="0.28627450980000002" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="snsAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="il1-6T-UY8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="604" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vl7-NP-zin">
+                                <rect key="frame" x="73" y="0.0" width="104" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="3If-Kx-aTA"/>
+                                </constraints>
+                                <state key="normal" title="개인정보처리방침">
+                                    <color key="titleColor" red="0.28627450980000002" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="snsAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="iCB-th-X5q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="605" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fM0-zz-bjo">
+                                <rect key="frame" x="198" y="0.0" width="52" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="rDc-G7-WbO"/>
+                                </constraints>
+                                <state key="normal" title="고객센터">
+                                    <color key="titleColor" red="0.28627450980000002" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="snsAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="nfC-7J-Vas"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1gY-bq-O97" userLabel="LineView1">
+                                <rect key="frame" x="62" y="0.0" width="1" height="17"/>
+                                <color key="backgroundColor" red="0.28627450980000002" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="BO9-20-nDz"/>
+                                    <constraint firstAttribute="height" constant="17" id="GYA-yH-Fnd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sP8-Hj-OkX" userLabel="LineView2">
+                                <rect key="frame" x="187" y="0.0" width="1" height="17"/>
+                                <color key="backgroundColor" red="0.28627450980000002" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="MbX-Pb-X8J"/>
+                                    <constraint firstAttribute="width" constant="1" id="bsQ-vM-bC1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sP8-Hj-OkX" firstAttribute="leading" secondItem="vl7-NP-zin" secondAttribute="trailing" constant="10" id="2of-3B-gVf"/>
+                            <constraint firstItem="sP8-Hj-OkX" firstAttribute="centerY" secondItem="O3b-Po-zwM" secondAttribute="centerY" id="HvK-sw-DV1"/>
+                            <constraint firstItem="vl7-NP-zin" firstAttribute="leading" secondItem="1gY-bq-O97" secondAttribute="trailing" constant="10" id="Nrx-2o-syR"/>
+                            <constraint firstItem="vl7-NP-zin" firstAttribute="centerY" secondItem="O3b-Po-zwM" secondAttribute="centerY" id="PBz-LL-lHI"/>
+                            <constraint firstItem="1gY-bq-O97" firstAttribute="centerY" secondItem="O3b-Po-zwM" secondAttribute="centerY" id="QA3-KJ-zky"/>
+                            <constraint firstItem="91k-tQ-Mby" firstAttribute="leading" secondItem="O3b-Po-zwM" secondAttribute="leading" id="SUU-nN-biy"/>
+                            <constraint firstItem="fM0-zz-bjo" firstAttribute="centerY" secondItem="O3b-Po-zwM" secondAttribute="centerY" id="YkF-We-3BT"/>
+                            <constraint firstItem="1gY-bq-O97" firstAttribute="leading" secondItem="91k-tQ-Mby" secondAttribute="trailing" constant="10" id="dlQ-AK-4X7"/>
+                            <constraint firstItem="fM0-zz-bjo" firstAttribute="leading" secondItem="sP8-Hj-OkX" secondAttribute="trailing" constant="10" id="i2q-1Y-Haa"/>
+                            <constraint firstItem="91k-tQ-Mby" firstAttribute="centerY" secondItem="O3b-Po-zwM" secondAttribute="centerY" id="nph-Ty-8LX"/>
+                            <constraint firstAttribute="trailing" secondItem="fM0-zz-bjo" secondAttribute="trailing" id="va8-HP-gzO"/>
+                            <constraint firstAttribute="height" constant="17" id="vdN-Xr-MF7"/>
+                        </constraints>
+                    </view>
+                    <button hidden="YES" opaque="NO" tag="601" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcH-mW-ngc" userLabel="FaceBookBtn">
+                        <rect key="frame" x="153" y="33" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Dds-s1-EfH"/>
+                            <constraint firstAttribute="width" constant="40" id="s9j-Kk-96s"/>
+                        </constraints>
+                        <state key="normal" image="facebook_icon"/>
+                        <connections>
+                            <action selector="snsAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="u3O-NE-aG2"/>
+                        </connections>
+                    </button>
+                    <button hidden="YES" opaque="NO" tag="602" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S92-Lf-plw" userLabel="YouTubeBtn">
+                        <rect key="frame" x="221" y="33" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Eey-i6-PZB"/>
+                            <constraint firstAttribute="height" constant="40" id="oEP-oU-57V"/>
+                        </constraints>
+                        <state key="normal" image="youtube_icon"/>
+                        <connections>
+                            <action selector="snsAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="LBk-73-qRg"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyrightⓒ더이앤엠㈜ All rights reserved." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JsQ-ch-vDg">
+                        <rect key="frame" x="83.5" y="107.5" width="247" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.47843137250000001" green="0.47843137250000001" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gTh-te-5Rl" userLabel="TopLineView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.5"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.69999999999999996" id="vkK-vG-TxV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerX" secondItem="pcH-mW-ngc" secondAttribute="trailing" constant="14" id="1yA-eD-7Gl"/>
+                    <constraint firstItem="gTh-te-5Rl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="2xn-qX-3uC"/>
+                    <constraint firstItem="JsQ-ch-vDg" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="MKW-WN-gtG"/>
+                    <constraint firstItem="gTh-te-5Rl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="PUs-AP-K9p"/>
+                    <constraint firstAttribute="bottom" secondItem="O3b-Po-zwM" secondAttribute="bottom" constant="57" id="dSe-Ek-UTM"/>
+                    <constraint firstItem="S92-Lf-plw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="33" id="ebW-j2-UDB"/>
+                    <constraint firstItem="S92-Lf-plw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="14" id="qv2-25-zah"/>
+                    <constraint firstItem="pcH-mW-ngc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="33" id="tZq-Ig-8Aj"/>
+                    <constraint firstItem="O3b-Po-zwM" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="vIf-G2-yfu"/>
+                    <constraint firstAttribute="bottom" secondItem="JsQ-ch-vDg" secondAttribute="bottom" constant="33" id="vvk-FL-pnX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="faqBtn" destination="fM0-zz-bjo" id="DIr-A2-8Yg"/>
+                <outlet property="policyBtn" destination="vl7-NP-zin" id="jdP-sX-e7o"/>
+                <outlet property="termBtn" destination="91k-tQ-Mby" id="hcH-Jy-hPb"/>
+            </connections>
+            <point key="canvasLocation" x="208" y="111.0944527736132"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="facebook_icon" width="47.5" height="47.5"/>
+        <image name="youtube_icon" width="17.5" height="12"/>
+    </resources>
+</document>

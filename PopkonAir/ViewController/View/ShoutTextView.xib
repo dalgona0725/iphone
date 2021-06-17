@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShoutTextView" customModule="PopkonAir" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="zJa-g1-DVo" id="4d8-U7-ma3"/>
+                <outlet property="shoutTextLabel" destination="t8x-wb-4wB" id="CW3-bc-SRe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zJa-g1-DVo">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="38"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zd2-ef-sQg">
+                    <rect key="frame" x="0.0" y="0.0" width="44" height="38"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icoMegaphone" translatesAutoresizingMaskIntoConstraints="NO" id="b1U-cf-9JX">
+                            <rect key="frame" x="12.5" y="9" width="19" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="81v-wV-6fC"/>
+                                <constraint firstAttribute="width" constant="19" id="p9Q-F0-CmC"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="N2B-dX-mLO"/>
+                        <constraint firstItem="b1U-cf-9JX" firstAttribute="centerX" secondItem="zd2-ef-sQg" secondAttribute="centerX" id="dFs-8A-lnQ"/>
+                        <constraint firstItem="b1U-cf-9JX" firstAttribute="centerY" secondItem="zd2-ef-sQg" secondAttribute="centerY" id="ebv-wU-PIq"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5dq-Gv-CxQ" userLabel="TextBackPanel">
+                    <rect key="frame" x="44" y="0.0" width="331" height="38"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8x-wb-4wB" customClass="SingleShotOffscreenLabel" customModule="PopkonAir" customModuleProvider="target">
+                    <rect key="frame" x="44" y="0.0" width="331" height="38"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="animationDelay">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="scrollDuration">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fadeLength">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5dq-Gv-CxQ" firstAttribute="width" secondItem="t8x-wb-4wB" secondAttribute="width" id="0L9-mw-oZI"/>
+                <constraint firstItem="t8x-wb-4wB" firstAttribute="leading" secondItem="zd2-ef-sQg" secondAttribute="trailing" id="2ex-nT-bkv"/>
+                <constraint firstAttribute="trailing" secondItem="t8x-wb-4wB" secondAttribute="trailing" id="H9j-TW-qmp"/>
+                <constraint firstItem="zd2-ef-sQg" firstAttribute="leading" secondItem="zJa-g1-DVo" secondAttribute="leading" id="Lza-sB-SUn"/>
+                <constraint firstItem="5dq-Gv-CxQ" firstAttribute="top" secondItem="t8x-wb-4wB" secondAttribute="top" id="PKf-P4-soi"/>
+                <constraint firstAttribute="bottom" secondItem="zd2-ef-sQg" secondAttribute="bottom" id="TFh-Oo-bQC"/>
+                <constraint firstItem="5dq-Gv-CxQ" firstAttribute="height" secondItem="t8x-wb-4wB" secondAttribute="height" id="cig-9l-y5Q"/>
+                <constraint firstAttribute="bottom" secondItem="t8x-wb-4wB" secondAttribute="bottom" id="hfV-pW-1eR"/>
+                <constraint firstItem="zd2-ef-sQg" firstAttribute="top" secondItem="zJa-g1-DVo" secondAttribute="top" id="jiY-92-DSw"/>
+                <constraint firstItem="t8x-wb-4wB" firstAttribute="top" secondItem="zJa-g1-DVo" secondAttribute="top" id="sbT-6V-9ur"/>
+                <constraint firstItem="5dq-Gv-CxQ" firstAttribute="leading" secondItem="t8x-wb-4wB" secondAttribute="leading" id="vnw-Ps-nB5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="35" y="149"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="t8x-wb-4wB">
+            <size key="intrinsicContentSize" width="35.5" height="17"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="icoMegaphone" width="20" height="20"/>
+    </resources>
+</document>

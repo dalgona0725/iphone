@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Regular.otf">
+            <string>NotoSansCJKkr-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="OzR-LK-Tse" customClass="CounselAnswerCell" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OzR-LK-Tse" id="ZjF-Vu-LQ9">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="답변 내용" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Azb-Qf-wtD">
+                        <rect key="frame" x="20" y="16" width="335" height="48"/>
+                        <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Edr-fK-ZZg" userLabel="Line">
+                        <rect key="frame" x="20" y="74.5" width="355" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="GHH-UJ-6YW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Azb-Qf-wtD" secondAttribute="trailing" constant="4" id="6vW-Rl-w4i"/>
+                    <constraint firstItem="Azb-Qf-wtD" firstAttribute="top" secondItem="ZjF-Vu-LQ9" secondAttribute="topMargin" constant="5" id="EBw-NW-JYY"/>
+                    <constraint firstItem="Edr-fK-ZZg" firstAttribute="leading" secondItem="ZjF-Vu-LQ9" secondAttribute="leading" constant="20" id="KgG-G7-o13"/>
+                    <constraint firstAttribute="bottom" secondItem="Edr-fK-ZZg" secondAttribute="bottom" constant="4" id="MXc-rl-0QZ"/>
+                    <constraint firstItem="Azb-Qf-wtD" firstAttribute="leading" secondItem="ZjF-Vu-LQ9" secondAttribute="leadingMargin" constant="4" id="tdD-Xs-tsv"/>
+                    <constraint firstAttribute="trailing" secondItem="Edr-fK-ZZg" secondAttribute="trailing" id="x3A-nS-JWY"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Azb-Qf-wtD" secondAttribute="bottom" constant="5" id="y6s-be-Wpw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="answerLabel" destination="Azb-Qf-wtD" id="mxx-kW-23G"/>
+            </connections>
+            <point key="canvasLocation" x="11" y="-15"/>
+        </tableViewCell>
+    </objects>
+</document>

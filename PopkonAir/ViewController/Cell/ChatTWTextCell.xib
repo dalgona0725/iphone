@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatTWTextCell" rowHeight="152" id="xqN-ep-uVh" customClass="ChatTWTextCell" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="152"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xqN-ep-uVh" id="EyO-jC-ftb">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="152"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="YGe-DB-97h">
+                        <rect key="frame" x="15" y="5" width="173.5" height="16"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPg-mn-FLc" customClass="LevelIconButton" customModule="PopkonAir" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="heX-5Z-oA8"/>
+                                    <constraint firstAttribute="width" constant="40" id="jGZ-dq-RBk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
+                                <state key="normal" title="LV94">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qog-9f-b5U" customClass="LevelIconButton" customModule="PopkonAir" customModuleProvider="target">
+                                <rect key="frame" x="44" y="0.0" width="40" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="YaO-HH-ls7"/>
+                                    <constraint firstAttribute="width" constant="40" id="aTX-6c-q8O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
+                                <state key="normal" title="FAN94">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHA-tT-Tok" customClass="LevelIconButton" customModule="PopkonAir" customModuleProvider="target">
+                                <rect key="frame" x="88" y="0.0" width="40" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="CVg-js-ZuZ"/>
+                                    <constraint firstAttribute="width" constant="40" id="JJ8-Uf-Uki"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
+                                <state key="normal" title="FAN94">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5d-Fx-9qT">
+                                <rect key="frame" x="132" y="0.0" width="41.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfp-97-jv2">
+                        <rect key="frame" x="15" y="25" width="368" height="122"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Xfp-97-jv2" firstAttribute="leading" secondItem="EyO-jC-ftb" secondAttribute="leading" constant="15" id="1cD-8t-CNc"/>
+                    <constraint firstAttribute="bottom" secondItem="Xfp-97-jv2" secondAttribute="bottom" constant="5" id="Eah-3j-vQl"/>
+                    <constraint firstAttribute="trailing" secondItem="Xfp-97-jv2" secondAttribute="trailing" constant="15" id="Zwu-M0-yzb"/>
+                    <constraint firstItem="YGe-DB-97h" firstAttribute="leading" secondItem="EyO-jC-ftb" secondAttribute="leading" constant="15" id="csn-ac-gxi"/>
+                    <constraint firstItem="Xfp-97-jv2" firstAttribute="top" secondItem="EyO-jC-ftb" secondAttribute="top" constant="25" id="tWc-Im-5eR"/>
+                    <constraint firstItem="YGe-DB-97h" firstAttribute="top" secondItem="EyO-jC-ftb" secondAttribute="top" constant="5" id="wXs-KG-zkZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="fanIcon" destination="qog-9f-b5U" id="LE8-av-ECp"/>
+                <outlet property="levelIcon" destination="jPg-mn-FLc" id="cof-bd-jUf"/>
+                <outlet property="mcIcon" destination="OHA-tT-Tok" id="dsx-Zp-bX7"/>
+                <outlet property="messageLabel" destination="Xfp-97-jv2" id="4ka-76-0Is"/>
+                <outlet property="messageTopConstraint" destination="tWc-Im-5eR" id="KGZ-sF-oSV"/>
+                <outlet property="nicknameLabel" destination="Z5d-Fx-9qT" id="5g3-gq-pmd"/>
+                <outlet property="nicknameStackView" destination="YGe-DB-97h" id="2gE-Ye-TSa"/>
+            </connections>
+            <point key="canvasLocation" x="28.800000000000001" y="158.32083958020991"/>
+        </tableViewCell>
+    </objects>
+</document>

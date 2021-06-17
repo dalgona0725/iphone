@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ColorPickerView" customModule="PopkonAir" customModuleProvider="target">
+            <connections>
+                <outlet property="alphaSlider" destination="wsG-nd-TK8" id="6HF-Br-vhZ"/>
+                <outlet property="colorScrollView" destination="AUD-YC-JAg" id="ock-jb-om4"/>
+                <outlet property="contView" destination="iN0-l3-epB" id="OGy-Ap-Dv8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUD-YC-JAg">
+                    <rect key="frame" x="0.0" y="35" width="375" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="HPb-3X-r7B"/>
+                    </constraints>
+                </scrollView>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wsG-nd-TK8">
+                    <rect key="frame" x="62.5" y="3" width="249" height="31"/>
+                    <color key="minimumTrackTintColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="thumbTintColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="chagedValue:" destination="-1" eventType="valueChanged" id="ejf-cy-3PV"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="투명값" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSf-tB-d0b">
+                    <rect key="frame" x="12" y="9" width="44.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="AUD-YC-JAg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0UE-y9-alM"/>
+                <constraint firstItem="wsG-nd-TK8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7Me-Zb-hzP"/>
+                <constraint firstItem="DSf-tB-d0b" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="8vp-fW-D3K"/>
+                <constraint firstAttribute="trailing" secondItem="AUD-YC-JAg" secondAttribute="trailing" id="GNC-nB-6V9"/>
+                <constraint firstItem="wsG-nd-TK8" firstAttribute="leading" secondItem="DSf-tB-d0b" secondAttribute="trailing" constant="8" id="L2M-0Z-48z"/>
+                <constraint firstItem="AUD-YC-JAg" firstAttribute="top" secondItem="DSf-tB-d0b" secondAttribute="bottom" constant="5" id="PHp-SU-L84"/>
+                <constraint firstItem="AUD-YC-JAg" firstAttribute="top" secondItem="wsG-nd-TK8" secondAttribute="bottom" constant="2" id="T6d-A2-KK7"/>
+                <constraint firstAttribute="bottom" secondItem="AUD-YC-JAg" secondAttribute="bottom" id="sen-g6-hF1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

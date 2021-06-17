@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Medium.otf">
+            <string>NotoSansCJKkr-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NoticeHeaderView" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l6W-F4-0aW" userLabel="view">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="등록일" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUQ-Y4-ibZ">
+                            <rect key="frame" x="0.0" y="0.0" width="110" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="110" id="fxO-9p-BBd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
+                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제목" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfe-KX-HPf">
+                            <rect key="frame" x="110" y="0.0" width="265" height="40"/>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
+                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.9219691753" green="0.93674063679999997" blue="0.98040664200000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="Pfe-KX-HPf" firstAttribute="top" secondItem="l6W-F4-0aW" secondAttribute="top" id="5DR-lU-iH5"/>
+                        <constraint firstItem="Pfe-KX-HPf" firstAttribute="leading" secondItem="dUQ-Y4-ibZ" secondAttribute="trailing" id="UBM-IW-odb"/>
+                        <constraint firstItem="dUQ-Y4-ibZ" firstAttribute="top" secondItem="l6W-F4-0aW" secondAttribute="top" id="WV4-62-GcW"/>
+                        <constraint firstAttribute="bottom" secondItem="dUQ-Y4-ibZ" secondAttribute="bottom" id="bGm-W0-6Ww"/>
+                        <constraint firstItem="dUQ-Y4-ibZ" firstAttribute="leading" secondItem="l6W-F4-0aW" secondAttribute="leading" id="krs-s1-UxY"/>
+                        <constraint firstAttribute="bottom" secondItem="Pfe-KX-HPf" secondAttribute="bottom" id="se7-4x-2co"/>
+                        <constraint firstAttribute="trailing" secondItem="Pfe-KX-HPf" secondAttribute="trailing" id="wHI-iF-Abv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="l6W-F4-0aW" secondAttribute="trailing" id="6lj-oa-amx"/>
+                <constraint firstItem="l6W-F4-0aW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Gdp-pH-nOY"/>
+                <constraint firstItem="l6W-F4-0aW" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="QwM-u9-YDp"/>
+                <constraint firstItem="l6W-F4-0aW" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="UH8-Ro-xgF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="titleLabel" destination="Pfe-KX-HPf" id="WdD-Wo-G92"/>
+                <outlet property="writeDateLabel" destination="dUQ-Y4-ibZ" id="jSE-5v-ggK"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="55"/>
+        </view>
+    </objects>
+</document>

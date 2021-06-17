@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b156257c-15fc-5244-92ff-e97f5f721be4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b156257c-15fc-5244-92ff-e97f5f721be4" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b156257c-15fc-5244-92ff-e97f5f721be4" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "17E7B4E2-4AB4-43FC-B0E3-65AC9E06D95A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b156257c-15fc-5244-92ff-e97f5f721be4" : "ad_ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PopkonAir",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PopkonAir New\/PopkonAir.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.popkontv.kr:81\/svn\/ad_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b156257c-15fc-5244-92ff-e97f5f721be4"
+    }
+  ]
+}

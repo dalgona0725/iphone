@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ClipCellView" customModule="PopkonAir" customModuleProvider="target">
+            <connections>
+                <outlet property="cntLabel" destination="hAI-uW-gIj" id="fMe-9n-UZF"/>
+                <outlet property="contView" destination="iN0-l3-epB" id="Im7-mr-0Ak"/>
+                <outlet property="imageView" destination="IJS-kV-aFh" id="4Ln-xe-Opk"/>
+                <outlet property="nameLabel" destination="xyv-Ym-suP" id="aRw-kK-dNo"/>
+                <outlet property="nickNameLabel" destination="Lpw-Zv-hLT" id="9PL-7g-Egb"/>
+                <outlet property="titleLabel" destination="amd-NI-aj2" id="L0u-b6-JVm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IJS-kV-aFh">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="IJS-kV-aFh" secondAttribute="height" multiplier="16:9" id="mnT-dc-7GI"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="방송방송방송방송방송방송방송방송방송방송방송방송방송방송방송방송방송방송방송방송방송방송방송방송" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amd-NI-aj2">
+                    <rect key="frame" x="0.0" y="185" width="320" height="17"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="14"/>
+                    <color key="textColor" red="0.066666666666666666" green="0.066666666666666666" blue="0.066666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyv-Ym-suP">
+                    <rect key="frame" x="9" y="9" width="27" height="14.5"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rs9-eI-BMs">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+                    <connections>
+                        <action selector="clickAction:" destination="-1" eventType="touchUpInside" id="u4u-Dp-l1U"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Celuv.TV Special" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpw-Zv-hLT">
+                    <rect key="frame" x="0.0" y="207" width="83" height="14.5"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="12"/>
+                    <color key="textColor" red="0.47843137254901957" green="0.47843137254901957" blue="0.47843137254901957" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,500" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAI-uW-gIj">
+                    <rect key="frame" x="281.5" y="207" width="28.5" height="14.5"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="12"/>
+                    <color key="textColor" red="0.47843137250000001" green="0.47843137250000001" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="countbIc" translatesAutoresizingMaskIntoConstraints="NO" id="Rg3-21-CRp">
+                    <rect key="frame" x="266.5" y="209.5" width="10" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="S3q-mI-rbr"/>
+                        <constraint firstAttribute="width" constant="10" id="ued-Xk-NCW"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="amd-NI-aj2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4G2-VS-Io9"/>
+                <constraint firstItem="IJS-kV-aFh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5A4-xF-7I3"/>
+                <constraint firstItem="Rs9-eI-BMs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8Na-xr-9yD"/>
+                <constraint firstItem="xyv-Ym-suP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="9" id="Ler-5H-nYj"/>
+                <constraint firstAttribute="bottom" secondItem="Rs9-eI-BMs" secondAttribute="bottom" id="PZo-L6-o1q"/>
+                <constraint firstAttribute="trailing" secondItem="amd-NI-aj2" secondAttribute="trailing" id="RQR-ZG-6bT"/>
+                <constraint firstItem="Lpw-Zv-hLT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="S8w-JJ-dif"/>
+                <constraint firstAttribute="trailing" secondItem="hAI-uW-gIj" secondAttribute="trailing" constant="10" id="Sh3-XP-WQt"/>
+                <constraint firstItem="Rg3-21-CRp" firstAttribute="centerY" secondItem="hAI-uW-gIj" secondAttribute="centerY" id="Xq9-n8-HPw"/>
+                <constraint firstItem="IJS-kV-aFh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ydf-D6-F2u"/>
+                <constraint firstItem="xyv-Ym-suP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="9" id="a0A-4W-ZBj"/>
+                <constraint firstAttribute="trailing" secondItem="Rs9-eI-BMs" secondAttribute="trailing" id="b7h-B8-ziK"/>
+                <constraint firstAttribute="trailing" secondItem="IJS-kV-aFh" secondAttribute="trailing" id="bCQ-Gi-9LU"/>
+                <constraint firstItem="hAI-uW-gIj" firstAttribute="top" secondItem="amd-NI-aj2" secondAttribute="bottom" constant="5" id="dr4-1P-vUp"/>
+                <constraint firstItem="Lpw-Zv-hLT" firstAttribute="top" secondItem="amd-NI-aj2" secondAttribute="bottom" constant="5" id="gWh-sU-nrj"/>
+                <constraint firstItem="amd-NI-aj2" firstAttribute="top" secondItem="IJS-kV-aFh" secondAttribute="bottom" constant="5" id="iYI-aP-UDo"/>
+                <constraint firstItem="hAI-uW-gIj" firstAttribute="leading" secondItem="Rg3-21-CRp" secondAttribute="trailing" constant="5" id="mhv-fS-mfh"/>
+                <constraint firstItem="Rs9-eI-BMs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uO7-XN-uHP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="25" y="56.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="countbIc" width="6" height="6"/>
+    </resources>
+</document>

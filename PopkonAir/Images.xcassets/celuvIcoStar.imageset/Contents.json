@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "scale" : "1x",
+      "filename" : "celuvIcoStar.png",
+      "idiom" : "universal"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "celuvIcoStar@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "scale" : "3x",
+      "filename" : "celuvIcoStar@3x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

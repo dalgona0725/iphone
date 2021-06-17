@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Bold.otf">
+            <string>NotoSansCJKkr-Bold</string>
+        </array>
+        <array key="NotoSansCJKkr-Medium.otf">
+            <string>NotoSansCJKkr-Medium</string>
+        </array>
+        <array key="NotoSansCJKkr-Regular.otf">
+            <string>NotoSansCJKkr-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="iN0-l3-epB" customClass="PolicyPopupView" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="준수사항 및 정책" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZD-aD-JFJ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                    <color key="backgroundColor" red="1" green="0.81176470588235294" blue="0.0039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="yBo-gX-thV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="20"/>
+                    <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="txZ-jf-dfv" userLabel="TopPanel">
+                    <rect key="frame" x="0.0" y="55" width="375" height="330.5"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuH-Hw-6yU">
+                            <rect key="frame" x="15" y="15" width="345" height="260"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <color key="textColor" red="0.27843137254901962" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="동의함" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAd-5k-uok">
+                            <rect key="frame" x="313" y="295" width="47" height="25.5"/>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIH-nn-EcD">
+                            <rect key="frame" x="277" y="294" width="28" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="7Jt-zC-hlu"/>
+                                <constraint firstAttribute="width" constant="28" id="8XC-lO-lS8"/>
+                            </constraints>
+                            <state key="normal" image="CeluvbtnCheckbox"/>
+                            <state key="selected" image="CeluvbtnChecked"/>
+                            <connections>
+                                <action selector="checkPolicy:" destination="iN0-l3-epB" eventType="touchUpInside" id="uwY-c8-2t6"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="VAd-5k-uok" secondAttribute="bottom" constant="10" id="2oH-L3-md5"/>
+                        <constraint firstItem="VAd-5k-uok" firstAttribute="top" secondItem="VuH-Hw-6yU" secondAttribute="bottom" constant="20" id="2vL-VB-zn8"/>
+                        <constraint firstItem="VAd-5k-uok" firstAttribute="leading" secondItem="sIH-nn-EcD" secondAttribute="trailing" constant="8" id="48j-qx-1QT"/>
+                        <constraint firstItem="VuH-Hw-6yU" firstAttribute="leading" secondItem="txZ-jf-dfv" secondAttribute="leading" constant="15" id="4ZV-Qh-tUT"/>
+                        <constraint firstAttribute="trailing" secondItem="VuH-Hw-6yU" secondAttribute="trailing" constant="15" id="GuM-zW-db0"/>
+                        <constraint firstItem="VuH-Hw-6yU" firstAttribute="top" secondItem="txZ-jf-dfv" secondAttribute="top" constant="15" id="WCe-qs-Zro"/>
+                        <constraint firstAttribute="trailing" secondItem="VAd-5k-uok" secondAttribute="trailing" constant="15" id="k9I-1O-re0"/>
+                        <constraint firstItem="sIH-nn-EcD" firstAttribute="centerY" secondItem="VAd-5k-uok" secondAttribute="centerY" id="kwa-aA-Z8f"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qNb-lK-Od7" userLabel="BottomPanel">
+                    <rect key="frame" x="0.0" y="385.5" width="375" height="230.5"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjF-om-QKe">
+                            <rect key="frame" x="15" y="15" width="345" height="144.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <color key="textColor" red="0.27843137254901962" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="동의함" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dh1-ak-pGA">
+                            <rect key="frame" x="308" y="179.5" width="52" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="52" id="UIh-Ap-DN4"/>
+                                <constraint firstAttribute="height" constant="26" id="wXZ-Wb-mHu"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CK-EU-5ob" userLabel="Bottom Agree Check">
+                            <rect key="frame" x="272" y="178.5" width="28" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="28" id="4zT-VE-ZVN"/>
+                                <constraint firstAttribute="height" constant="28" id="oXj-mh-q6Q"/>
+                            </constraints>
+                            <state key="normal" image="CeluvbtnCheckbox"/>
+                            <state key="selected" image="CeluvbtnChecked"/>
+                            <connections>
+                                <action selector="checkPolicy:" destination="iN0-l3-epB" eventType="touchUpInside" id="oV4-ZS-E2M"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="동의 안함" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcB-fH-E1j">
+                            <rect key="frame" x="177" y="179.5" width="70" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="GIw-XI-Lt2"/>
+                                <constraint firstAttribute="height" constant="26" id="h1v-4G-ulr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1T-LU-Pdl" userLabel="Bottom Disagree Check">
+                            <rect key="frame" x="141" y="178.5" width="28" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="Jq3-qr-SiP"/>
+                                <constraint firstAttribute="width" constant="28" id="RfL-qD-yQ1"/>
+                            </constraints>
+                            <state key="normal" image="CeluvbtnCheckbox"/>
+                            <state key="selected" image="CeluvbtnChecked"/>
+                            <connections>
+                                <action selector="checkPolicy:" destination="iN0-l3-epB" eventType="touchUpInside" id="XlB-RQ-dbq"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Dh1-ak-pGA" secondAttribute="trailing" constant="15" id="3lh-jY-Q0F"/>
+                        <constraint firstAttribute="trailing" secondItem="AjF-om-QKe" secondAttribute="trailing" constant="15" id="Avu-Xv-zGR"/>
+                        <constraint firstItem="3CK-EU-5ob" firstAttribute="leading" secondItem="jcB-fH-E1j" secondAttribute="trailing" constant="25" id="Cz9-3T-INK"/>
+                        <constraint firstItem="3CK-EU-5ob" firstAttribute="centerY" secondItem="Dh1-ak-pGA" secondAttribute="centerY" id="EXB-YG-1BI"/>
+                        <constraint firstItem="jcB-fH-E1j" firstAttribute="leading" secondItem="D1T-LU-Pdl" secondAttribute="trailing" constant="8" id="Fw1-gK-FvY"/>
+                        <constraint firstItem="jcB-fH-E1j" firstAttribute="bottom" secondItem="Dh1-ak-pGA" secondAttribute="bottom" id="Itj-gJ-irB"/>
+                        <constraint firstAttribute="bottom" secondItem="Dh1-ak-pGA" secondAttribute="bottom" constant="25" id="Oua-qn-Jia"/>
+                        <constraint firstItem="Dh1-ak-pGA" firstAttribute="top" secondItem="AjF-om-QKe" secondAttribute="bottom" constant="20" id="UKN-Eq-Lv8"/>
+                        <constraint firstItem="AjF-om-QKe" firstAttribute="top" secondItem="qNb-lK-Od7" secondAttribute="top" constant="15" id="VyS-iu-OD3"/>
+                        <constraint firstItem="Dh1-ak-pGA" firstAttribute="leading" secondItem="3CK-EU-5ob" secondAttribute="trailing" constant="8" id="b6t-Ug-bPg"/>
+                        <constraint firstItem="D1T-LU-Pdl" firstAttribute="centerY" secondItem="jcB-fH-E1j" secondAttribute="centerY" id="kUU-ry-PjY"/>
+                        <constraint firstItem="AjF-om-QKe" firstAttribute="leading" secondItem="qNb-lK-Od7" secondAttribute="leading" constant="15" id="sF3-TG-KGp"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oio-GR-jlJ">
+                    <rect key="frame" x="0.0" y="616" width="375" height="51"/>
+                    <color key="backgroundColor" red="1" green="0.81176470590000005" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="YmV-1B-RYa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="17"/>
+                    <state key="normal" title="확인">
+                        <color key="titleColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="allConfirm:" destination="iN0-l3-epB" eventType="touchUpInside" id="I8N-dB-FTJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="TZD-aD-JFJ" firstAttribute="leading" secondItem="6Zb-Dw-xIh" secondAttribute="leading" id="1VK-ir-oZb"/>
+                <constraint firstItem="Oio-GR-jlJ" firstAttribute="bottom" secondItem="6Zb-Dw-xIh" secondAttribute="bottom" id="4mz-mA-wNO"/>
+                <constraint firstItem="qNb-lK-Od7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6ki-nI-1FG"/>
+                <constraint firstItem="Oio-GR-jlJ" firstAttribute="leading" secondItem="6Zb-Dw-xIh" secondAttribute="leading" id="Kp2-OR-jDq"/>
+                <constraint firstAttribute="trailing" secondItem="txZ-jf-dfv" secondAttribute="trailing" id="MSW-bM-RaV"/>
+                <constraint firstItem="TZD-aD-JFJ" firstAttribute="top" secondItem="6Zb-Dw-xIh" secondAttribute="top" id="QS9-hk-1L9"/>
+                <constraint firstItem="qNb-lK-Od7" firstAttribute="top" secondItem="txZ-jf-dfv" secondAttribute="bottom" id="S1S-nI-6Cm"/>
+                <constraint firstItem="Oio-GR-jlJ" firstAttribute="top" secondItem="qNb-lK-Od7" secondAttribute="bottom" id="XTX-Zi-Nr0"/>
+                <constraint firstItem="TZD-aD-JFJ" firstAttribute="trailing" secondItem="6Zb-Dw-xIh" secondAttribute="trailing" id="ZeK-tC-h1C"/>
+                <constraint firstAttribute="trailing" secondItem="qNb-lK-Od7" secondAttribute="trailing" id="lt8-8J-tVE"/>
+                <constraint firstItem="txZ-jf-dfv" firstAttribute="height" secondItem="qNb-lK-Od7" secondAttribute="height" constant="100" id="q3N-zJ-t9P"/>
+                <constraint firstItem="txZ-jf-dfv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="v37-9l-0LS"/>
+                <constraint firstItem="txZ-jf-dfv" firstAttribute="top" secondItem="TZD-aD-JFJ" secondAttribute="bottom" id="yuR-vZ-dqn"/>
+                <constraint firstItem="Oio-GR-jlJ" firstAttribute="trailing" secondItem="6Zb-Dw-xIh" secondAttribute="trailing" id="z9N-Dc-Pld"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="6Zb-Dw-xIh"/>
+            <connections>
+                <outlet property="allConfirmButton" destination="Oio-GR-jlJ" id="Gma-eq-bli"/>
+                <outlet property="bottomAgreeLabel" destination="Dh1-ak-pGA" id="Q5b-pg-WoM"/>
+                <outlet property="bottomCheckButton" destination="3CK-EU-5ob" id="XGi-ga-IIO"/>
+                <outlet property="bottomTextView" destination="AjF-om-QKe" id="fC9-U6-ozS"/>
+                <outlet property="bottonDisagreeButton" destination="D1T-LU-Pdl" id="xvp-9N-jun"/>
+                <outlet property="mainTitleLabel" destination="TZD-aD-JFJ" id="cjb-WI-Twr"/>
+                <outlet property="notAgreeLabel" destination="jcB-fH-E1j" id="rFE-GJ-Tqz"/>
+                <outlet property="topAgreeLabel" destination="VAd-5k-uok" id="22S-0f-4RO"/>
+                <outlet property="topCheckButton" destination="sIH-nn-EcD" id="ALf-gV-1qS"/>
+                <outlet property="topTextView" destination="VuH-Hw-6yU" id="8hR-4G-xCZ"/>
+            </connections>
+            <point key="canvasLocation" x="119.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CeluvbtnCheckbox" width="18" height="18"/>
+        <image name="CeluvbtnChecked" width="18" height="18"/>
+    </resources>
+</document>

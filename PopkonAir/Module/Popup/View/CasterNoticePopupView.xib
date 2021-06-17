@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Bold.otf">
+            <string>NotoSansCJKkr-Bold</string>
+        </array>
+        <array key="NotoSansCJKkr-Medium.otf">
+            <string>NotoSansCJKkr-Medium</string>
+        </array>
+        <array key="NotoSansCJKkr-Regular.otf">
+            <string>NotoSansCJKkr-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="FNe-sj-eTP" customClass="CasterNoticePopupView" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="331" height="217"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kiu-dq-lrd" userLabel="TopPanel">
+                    <rect key="frame" x="0.0" y="0.0" width="331" height="55"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="방송 공지" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hq-oM-9LG">
+                            <rect key="frame" x="22" y="15" width="289" height="26"/>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.81176470590000005" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="3hq-oM-9LG" secondAttribute="trailing" constant="20" id="3wP-ik-2hC"/>
+                        <constraint firstAttribute="bottom" secondItem="3hq-oM-9LG" secondAttribute="bottom" constant="14" id="55m-w0-lgg"/>
+                        <constraint firstItem="3hq-oM-9LG" firstAttribute="leading" secondItem="kiu-dq-lrd" secondAttribute="leading" constant="22" id="GkW-Tw-i1k"/>
+                        <constraint firstItem="3hq-oM-9LG" firstAttribute="top" secondItem="kiu-dq-lrd" secondAttribute="top" constant="15" id="UBW-rT-aax"/>
+                        <constraint firstAttribute="height" constant="55" id="k5L-Es-L0I"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efy-ru-VgR" userLabel="BottomPanel">
+                    <rect key="frame" x="0.0" y="166" width="331" height="51"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPx-uX-xrU">
+                            <rect key="frame" x="165.5" y="0.0" width="165.5" height="51"/>
+                            <color key="backgroundColor" red="1" green="0.81176470590000005" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                            <state key="normal" title="확인">
+                                <color key="titleColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="okAction:" destination="FNe-sj-eTP" eventType="touchUpInside" id="r41-MR-nh9"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TP0-Mi-lus">
+                            <rect key="frame" x="0.0" y="0.0" width="165.5" height="51"/>
+                            <color key="backgroundColor" red="0.85098039219999999" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                            <state key="normal" title="취소">
+                                <color key="titleColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelAction:" destination="FNe-sj-eTP" eventType="touchUpInside" id="eMV-yP-PMJ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="TP0-Mi-lus" firstAttribute="width" secondItem="qPx-uX-xrU" secondAttribute="width" id="1u0-82-bTV"/>
+                        <constraint firstItem="TP0-Mi-lus" firstAttribute="leading" secondItem="efy-ru-VgR" secondAttribute="leading" id="3Nk-RJ-kjK"/>
+                        <constraint firstAttribute="trailing" secondItem="qPx-uX-xrU" secondAttribute="trailing" id="5Cn-tc-jdE"/>
+                        <constraint firstAttribute="bottom" secondItem="TP0-Mi-lus" secondAttribute="bottom" id="7E3-zR-PU7"/>
+                        <constraint firstItem="TP0-Mi-lus" firstAttribute="top" secondItem="efy-ru-VgR" secondAttribute="top" id="CVM-8L-alK"/>
+                        <constraint firstAttribute="bottom" secondItem="qPx-uX-xrU" secondAttribute="bottom" id="Gqy-St-4mU"/>
+                        <constraint firstAttribute="height" constant="51" id="R5r-wR-ndi"/>
+                        <constraint firstItem="qPx-uX-xrU" firstAttribute="top" secondItem="efy-ru-VgR" secondAttribute="top" id="mAJ-xv-qvv"/>
+                        <constraint firstItem="qPx-uX-xrU" firstAttribute="leading" secondItem="TP0-Mi-lus" secondAttribute="trailing" id="u91-KA-YYm"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="글자갯수" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxP-5I-c19">
+                    <rect key="frame" x="186" y="123" width="120" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="Q1J-lP-l5B"/>
+                        <constraint firstAttribute="width" constant="120" id="U7b-zZ-d8d"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="15"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="방송 입장시 출력되는 내용을 입력해주세요." textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ukq-GK-nnW" userLabel="InputField" customClass="OneLineTextField" customModule="PopkonAir" customModuleProvider="target">
+                    <rect key="frame" x="22" y="80" width="287" height="39"/>
+                    <color key="tintColor" red="0.94901960780000005" green="0.30196078430000001" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="lsF-ZR-g3T"/>
+                    </constraints>
+                    <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="send"/>
+                    <connections>
+                        <outlet property="delegate" destination="FNe-sj-eTP" id="VKN-eh-cCb"/>
+                    </connections>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ukq-GK-nnW" firstAttribute="leading" secondItem="MgA-W1-hAe" secondAttribute="leading" constant="22" id="5bo-49-Tm5"/>
+                <constraint firstAttribute="trailing" secondItem="efy-ru-VgR" secondAttribute="trailing" id="8wG-Si-bXk"/>
+                <constraint firstItem="ukq-GK-nnW" firstAttribute="top" secondItem="kiu-dq-lrd" secondAttribute="bottom" constant="25" id="HWG-uD-Vib"/>
+                <constraint firstItem="kiu-dq-lrd" firstAttribute="leading" secondItem="FNe-sj-eTP" secondAttribute="leading" id="KmT-Ey-mdu"/>
+                <constraint firstItem="MgA-W1-hAe" firstAttribute="trailing" secondItem="sxP-5I-c19" secondAttribute="trailing" constant="25" id="Ope-sJ-QDA"/>
+                <constraint firstItem="sxP-5I-c19" firstAttribute="top" secondItem="ukq-GK-nnW" secondAttribute="bottom" constant="4" id="Q5Y-N6-rRI"/>
+                <constraint firstItem="efy-ru-VgR" firstAttribute="leading" secondItem="FNe-sj-eTP" secondAttribute="leading" id="Wvq-E8-Qzu"/>
+                <constraint firstAttribute="bottom" secondItem="efy-ru-VgR" secondAttribute="bottom" id="XER-IL-7xB"/>
+                <constraint firstItem="MgA-W1-hAe" firstAttribute="trailing" secondItem="ukq-GK-nnW" secondAttribute="trailing" constant="22" id="gZ4-eI-tA2"/>
+                <constraint firstItem="kiu-dq-lrd" firstAttribute="top" secondItem="FNe-sj-eTP" secondAttribute="top" id="he8-ZY-c1a"/>
+                <constraint firstItem="efy-ru-VgR" firstAttribute="top" secondItem="sxP-5I-c19" secondAttribute="bottom" constant="18" id="oZB-Dd-XxB"/>
+                <constraint firstAttribute="trailing" secondItem="kiu-dq-lrd" secondAttribute="trailing" id="qFh-ap-OY2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="MgA-W1-hAe"/>
+            <connections>
+                <outlet property="cancelButton" destination="TP0-Mi-lus" id="nCN-CT-6me"/>
+                <outlet property="currentTextCountLabel" destination="sxP-5I-c19" id="5pT-kC-AuK"/>
+                <outlet property="noticeTextField" destination="ukq-GK-nnW" id="Lfp-2h-G14"/>
+                <outlet property="noticeTitleLabel" destination="3hq-oM-9LG" id="Ywt-yU-wgV"/>
+                <outlet property="okButton" destination="qPx-uX-xrU" id="DfI-bz-5Z5"/>
+                <outlet property="topPanel" destination="kiu-dq-lrd" id="PXs-4y-eoa"/>
+            </connections>
+            <point key="canvasLocation" x="-216.5" y="-311.5"/>
+        </view>
+    </objects>
+</document>

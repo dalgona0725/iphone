@@ -1,0 +1,10 @@
+
+ui_cancel = "취소";
+ui_ok     = "확인";
+
+login_needLogin = "로그인 후 이용가능합니다. \n로그인 하시겠습니까?";
+cast_needPassword = "비밀번호를 입력해주세요.";
+cast_putPssword  = "비밀번호를 입력해 주시기 바랍니다.";
+
+vod_successFanJoin = "팬 가입하였습니다.";
+

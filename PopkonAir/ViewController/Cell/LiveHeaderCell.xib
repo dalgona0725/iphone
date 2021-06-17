@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiveHeaderCell" customModule="PopkonAir" customModuleProvider="target">
+            <connections>
+                <outlet property="contView" destination="iqA-Un-lDN" id="7CJ-Rz-ces"/>
+                <outlet property="sortBtn" destination="1oS-w0-Its" id="D3Y-4M-snO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iqA-Un-lDN">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oS-w0-Its" customClass="SelectDropButton" customModule="PopkonAir" customModuleProvider="target">
+                    <rect key="frame" x="296" y="15.5" width="54" height="18"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
+                    <color key="tintColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="titleEdgeInsets" minX="-30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="인기 순" image="bt">
+                        <color key="titleColor" red="0.28627450980392155" green="0.28627450980392155" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onSortBtn:" destination="-1" eventType="touchUpInside" id="QdO-VO-qIv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="9Vh-Dm-kiv"/>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="9Vh-Dm-kiv" firstAttribute="trailing" secondItem="1oS-w0-Its" secondAttribute="trailing" constant="25" id="faH-k4-TVj"/>
+                <constraint firstItem="1oS-w0-Its" firstAttribute="centerY" secondItem="9Vh-Dm-kiv" secondAttribute="centerY" id="u2I-35-zJC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-415.19999999999999" y="-9.4452773613193415"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bt" width="11" height="7"/>
+    </resources>
+</document>

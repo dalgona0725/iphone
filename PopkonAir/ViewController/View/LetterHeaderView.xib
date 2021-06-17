@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Medium.otf">
+            <string>NotoSansCJKkr-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="IkJ-eh-A90" customClass="LetterHeaderView" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wLi-aR-82F" userLabel="view">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="보낸사람" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYt-bG-NYq">
+                            <rect key="frame" x="0.0" y="0.0" width="80" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="si5-zE-zkG"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
+                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내용" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRn-wc-dIS">
+                            <rect key="frame" x="80" y="0.0" width="177" height="40"/>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
+                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시간" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIb-IR-pYJ">
+                            <rect key="frame" x="257" y="0.0" width="72" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="72" id="A0U-f6-7kX"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
+                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="수신확인" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDF-GI-y07">
+                            <rect key="frame" x="329" y="0.0" width="85" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="85" id="hdj-d0-D7k"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
+                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.9219691753" green="0.93674063679999997" blue="0.98040664200000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="BRn-wc-dIS" secondAttribute="bottom" id="0NH-sK-Auh"/>
+                        <constraint firstItem="oDF-GI-y07" firstAttribute="leading" secondItem="YIb-IR-pYJ" secondAttribute="trailing" id="5U0-M4-IxD"/>
+                        <constraint firstAttribute="bottom" secondItem="YYt-bG-NYq" secondAttribute="bottom" id="9WD-d4-Mae"/>
+                        <constraint firstItem="oDF-GI-y07" firstAttribute="top" secondItem="wLi-aR-82F" secondAttribute="top" id="9mR-dI-GbL"/>
+                        <constraint firstItem="YYt-bG-NYq" firstAttribute="leading" secondItem="wLi-aR-82F" secondAttribute="leading" id="FJk-qp-B87"/>
+                        <constraint firstAttribute="bottom" secondItem="YIb-IR-pYJ" secondAttribute="bottom" id="Q4l-E5-OfW"/>
+                        <constraint firstItem="YIb-IR-pYJ" firstAttribute="top" secondItem="wLi-aR-82F" secondAttribute="top" id="T7D-jb-XLb"/>
+                        <constraint firstItem="BRn-wc-dIS" firstAttribute="leading" secondItem="YYt-bG-NYq" secondAttribute="trailing" id="e6J-Np-Jx3"/>
+                        <constraint firstAttribute="bottom" secondItem="oDF-GI-y07" secondAttribute="bottom" id="fyD-nd-6CF"/>
+                        <constraint firstAttribute="trailing" secondItem="oDF-GI-y07" secondAttribute="trailing" id="mSg-xd-e9L"/>
+                        <constraint firstItem="BRn-wc-dIS" firstAttribute="top" secondItem="wLi-aR-82F" secondAttribute="top" id="npS-BP-U5o"/>
+                        <constraint firstItem="YIb-IR-pYJ" firstAttribute="leading" secondItem="BRn-wc-dIS" secondAttribute="trailing" id="pwN-Hc-zK2"/>
+                        <constraint firstItem="YYt-bG-NYq" firstAttribute="top" secondItem="wLi-aR-82F" secondAttribute="top" id="zsE-58-uar"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wLi-aR-82F" firstAttribute="top" secondItem="hrj-Qh-ACQ" secondAttribute="top" id="iU2-i1-gQV"/>
+                <constraint firstItem="wLi-aR-82F" firstAttribute="bottom" secondItem="hrj-Qh-ACQ" secondAttribute="bottom" id="j7u-pe-huT"/>
+                <constraint firstItem="hrj-Qh-ACQ" firstAttribute="trailing" secondItem="wLi-aR-82F" secondAttribute="trailing" id="ofG-p6-ICO"/>
+                <constraint firstItem="wLi-aR-82F" firstAttribute="leading" secondItem="hrj-Qh-ACQ" secondAttribute="leading" id="qA4-Q2-HIb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="hrj-Qh-ACQ"/>
+            <connections>
+                <outlet property="letterContentLabel" destination="BRn-wc-dIS" id="jdL-xq-HmC"/>
+                <outlet property="letterOwnerLabel" destination="YYt-bG-NYq" id="o3S-v9-P15"/>
+                <outlet property="letterReceiveLabel" destination="oDF-GI-y07" id="APP-WS-vJP"/>
+                <outlet property="letterTimeLabel" destination="YIb-IR-pYJ" id="BZP-zb-APa"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="55"/>
+        </view>
+    </objects>
+</document>

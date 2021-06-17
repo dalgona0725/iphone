@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13526" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Bold.otf">
+            <string>NotoSansCJKkr-Bold</string>
+        </array>
+        <array key="NotoSansCJKkr-Medium.otf">
+            <string>NotoSansCJKkr-Medium</string>
+        </array>
+        <array key="NotoSansCJKkr-Regular.otf">
+            <string>NotoSansCJKkr-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gKJ-uo-9T4" customClass="LongTextPoupView" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="293" height="355"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cgs-wa-I0c" customClass="RoundButton" customModule="PopkonAir" customModuleProvider="target">
+                    <rect key="frame" x="230" y="317" width="55" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="V40-i4-NKH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                    <state key="normal" title="확인">
+                        <color key="titleColor" red="0.94901960780000005" green="0.30196078430000001" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="button1Action:" destination="gKJ-uo-9T4" eventType="touchUpInside" id="jVH-Ka-LNI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvz-90-f6m" customClass="RoundButton" customModule="PopkonAir" customModuleProvider="target">
+                    <rect key="frame" x="167" y="317" width="55" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="vuT-a1-Tzb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                    <state key="normal" title="취소">
+                        <color key="titleColor" red="0.94901960780000005" green="0.30196078430000001" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="button2Action:" destination="gKJ-uo-9T4" eventType="touchUpInside" id="zRq-1C-iEL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxo-eY-g3p">
+                    <rect key="frame" x="8" y="274" width="180" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="lrr-Xt-Is0"/>
+                        <constraint firstAttribute="width" constant="180" id="qBH-dB-H5B"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="13"/>
+                    <state key="normal" title="일주일 동안 띄우지 않기" image="check">
+                        <color key="titleColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="check_on"/>
+                    <connections>
+                        <action selector="chkButtonAction:" destination="gKJ-uo-9T4" eventType="touchUpInside" id="cMj-Mh-H8g"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ep9-ES-K0y">
+                    <rect key="frame" x="8" y="6" width="277" height="264"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="15"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="vvz-90-f6m" secondAttribute="bottom" constant="8" id="8j7-Nr-Zff"/>
+                <constraint firstItem="vvz-90-f6m" firstAttribute="top" secondItem="hxo-eY-g3p" secondAttribute="bottom" constant="3" id="G4T-gH-ZY3"/>
+                <constraint firstAttribute="trailing" secondItem="Ep9-ES-K0y" secondAttribute="trailing" constant="8" id="G5F-UB-FRc"/>
+                <constraint firstItem="Ep9-ES-K0y" firstAttribute="leading" secondItem="gKJ-uo-9T4" secondAttribute="leading" constant="8" id="Pgq-lq-glt"/>
+                <constraint firstAttribute="bottom" secondItem="Cgs-wa-I0c" secondAttribute="bottom" constant="8" id="QHG-sq-HFd"/>
+                <constraint firstItem="Cgs-wa-I0c" firstAttribute="leading" secondItem="vvz-90-f6m" secondAttribute="trailing" constant="8" id="Rrt-1C-Ar5"/>
+                <constraint firstItem="Ep9-ES-K0y" firstAttribute="top" secondItem="gKJ-uo-9T4" secondAttribute="top" constant="6" id="U78-3u-juN"/>
+                <constraint firstItem="hxo-eY-g3p" firstAttribute="top" secondItem="Ep9-ES-K0y" secondAttribute="bottom" constant="4" id="Up2-9v-t9i"/>
+                <constraint firstAttribute="trailing" secondItem="Cgs-wa-I0c" secondAttribute="trailing" constant="8" id="c2B-cb-x8O"/>
+                <constraint firstItem="hxo-eY-g3p" firstAttribute="leading" secondItem="gKJ-uo-9T4" secondAttribute="leading" constant="8" id="x7X-XU-hrn"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="chkButton" destination="hxo-eY-g3p" id="W3l-Mc-h1j"/>
+                <outlet property="textView" destination="Ep9-ES-K0y" id="6yX-vE-JF7"/>
+                <outletCollection property="buttons" destination="Cgs-wa-I0c" collectionClass="NSMutableArray" id="VDg-1R-k4E"/>
+                <outletCollection property="buttons" destination="vvz-90-f6m" collectionClass="NSMutableArray" id="s8F-2U-oJC"/>
+            </connections>
+            <point key="canvasLocation" x="-97.5" y="94.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="check" width="29" height="29"/>
+        <image name="check_on" width="29" height="29"/>
+    </resources>
+</document>

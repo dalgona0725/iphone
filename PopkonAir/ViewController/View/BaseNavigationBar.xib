@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Bold.otf">
+            <string>NotoSansCJKkr-Bold</string>
+        </array>
+        <array key="NotoSansCJKkr-Medium.otf">
+            <string>NotoSansCJKkr-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BaseNavigationBar" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdA-QH-Obv">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Yuq-Ow-BoM"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oon-jj-KwQ">
+                    <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tb2-JE-bJY">
+                            <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="p0g-ad-cv2"/>
+                                <constraint firstAttribute="height" constant="44" id="vGS-vf-Mx7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" image="iconMypage"/>
+                            <connections>
+                                <action selector="backAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="6Rh-Zg-uxI"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBZ-L3-Ldb">
+                            <rect key="frame" x="52" y="0.0" width="274" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="dhY-Tw-cmQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="18"/>
+                            <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKr-fk-ztA">
+                            <rect key="frame" x="127.5" y="7" width="120" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="RiA-79-gGB"/>
+                                <constraint firstAttribute="width" constant="120" id="Ybx-8k-yr3"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" image="wordmarkCeluvtv"/>
+                            <connections>
+                                <action selector="logoAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="RLR-dN-KoW"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Cq-g3-xPu">
+                            <rect key="frame" x="334" y="4" width="36" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="36" id="dkx-N2-Eaw"/>
+                                <constraint firstAttribute="height" constant="36" id="tan-9p-CYR"/>
+                            </constraints>
+                            <state key="normal" image="broadcast"/>
+                            <connections>
+                                <action selector="rightAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="cbz-gn-xKp"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DG8-0t-P27">
+                            <rect key="frame" x="294" y="4" width="36" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="36" id="ZAK-im-Ddd"/>
+                                <constraint firstAttribute="height" constant="36" id="jfb-6C-da3"/>
+                            </constraints>
+                            <state key="normal" image="iconSearch"/>
+                            <connections>
+                                <action selector="rightAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="In2-O8-g5Q"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IrB-D5-l0E">
+                            <rect key="frame" x="254" y="4" width="36" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="03y-Oa-P9D"/>
+                                <constraint firstAttribute="width" constant="36" id="r8K-gs-hyW"/>
+                            </constraints>
+                            <state key="normal" image="favorit2"/>
+                            <connections>
+                                <action selector="rightAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="0q4-Ds-eJn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ma-Xh-sR0" customClass="RoundButton" customModule="PopkonAir" customModuleProvider="target">
+                            <rect key="frame" x="281" y="7" width="86" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="If4-Fe-mpi"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" red="0.30183231830596924" green="0.30188876390457153" blue="0.30182492733001709" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="roundAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Zfi-hF-zvB"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="검색어를 입력해주세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yaG-AQ-4Vj" customClass="SearchHistoryTextfield" customModule="PopkonAir" customModuleProvider="target">
+                            <rect key="frame" x="51" y="0.0" width="276" height="44"/>
+                            <color key="tintColor" red="0.94901960780000005" green="0.30196078430000001" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            <connections>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="apm-Bx-7Hq"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="9Cq-g3-xPu" firstAttribute="leading" secondItem="DG8-0t-P27" secondAttribute="trailing" constant="4" id="3yU-MW-pcz"/>
+                        <constraint firstItem="tb2-JE-bJY" firstAttribute="leading" secondItem="Oon-jj-KwQ" secondAttribute="leading" id="4Gb-uL-yfV"/>
+                        <constraint firstItem="9Cq-g3-xPu" firstAttribute="centerY" secondItem="Oon-jj-KwQ" secondAttribute="centerY" id="64M-lO-ArE"/>
+                        <constraint firstAttribute="trailing" secondItem="9Cq-g3-xPu" secondAttribute="trailing" constant="5" id="7V7-RL-Vxh"/>
+                        <constraint firstItem="9Cq-g3-xPu" firstAttribute="leading" secondItem="yaG-AQ-4Vj" secondAttribute="trailing" constant="7" id="EIG-VA-1y8"/>
+                        <constraint firstItem="9Cq-g3-xPu" firstAttribute="leading" secondItem="zBZ-L3-Ldb" secondAttribute="trailing" constant="8" id="P2H-jw-cTQ"/>
+                        <constraint firstItem="DG8-0t-P27" firstAttribute="leading" secondItem="IrB-D5-l0E" secondAttribute="trailing" constant="4" id="U23-mB-rVi"/>
+                        <constraint firstItem="IrB-D5-l0E" firstAttribute="centerY" secondItem="Oon-jj-KwQ" secondAttribute="centerY" id="VJZ-Zf-WK4"/>
+                        <constraint firstItem="zBZ-L3-Ldb" firstAttribute="centerY" secondItem="Oon-jj-KwQ" secondAttribute="centerY" id="ZxK-ZV-bDs"/>
+                        <constraint firstItem="AKr-fk-ztA" firstAttribute="centerX" secondItem="Oon-jj-KwQ" secondAttribute="centerX" id="b2q-cw-4De"/>
+                        <constraint firstItem="DG8-0t-P27" firstAttribute="centerY" secondItem="Oon-jj-KwQ" secondAttribute="centerY" id="bas-nW-44Y"/>
+                        <constraint firstItem="yaG-AQ-4Vj" firstAttribute="leading" secondItem="tb2-JE-bJY" secondAttribute="trailing" constant="7" id="cST-AW-AqW"/>
+                        <constraint firstItem="AKr-fk-ztA" firstAttribute="centerY" secondItem="Oon-jj-KwQ" secondAttribute="centerY" id="dVT-jt-2hQ"/>
+                        <constraint firstItem="tb2-JE-bJY" firstAttribute="centerY" secondItem="Oon-jj-KwQ" secondAttribute="centerY" id="dlS-UM-3t3"/>
+                        <constraint firstAttribute="bottom" secondItem="yaG-AQ-4Vj" secondAttribute="bottom" id="hbi-Tk-Dow"/>
+                        <constraint firstItem="4ma-Xh-sR0" firstAttribute="centerY" secondItem="Oon-jj-KwQ" secondAttribute="centerY" id="jZW-Zh-s0s"/>
+                        <constraint firstItem="zBZ-L3-Ldb" firstAttribute="leading" secondItem="tb2-JE-bJY" secondAttribute="trailing" constant="8" id="lK1-ks-tQO"/>
+                        <constraint firstItem="yaG-AQ-4Vj" firstAttribute="top" secondItem="Oon-jj-KwQ" secondAttribute="top" id="x0y-sa-bBg"/>
+                        <constraint firstAttribute="trailing" secondItem="4ma-Xh-sR0" secondAttribute="trailing" constant="8" id="xIZ-36-61Q"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="vdA-QH-Obv" secondAttribute="trailing" id="1yY-fO-Yxw"/>
+                <constraint firstItem="Oon-jj-KwQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3o6-av-xZG"/>
+                <constraint firstItem="Oon-jj-KwQ" firstAttribute="top" secondItem="vdA-QH-Obv" secondAttribute="bottom" id="CZa-SF-tUD"/>
+                <constraint firstItem="vdA-QH-Obv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="D0h-Ou-FcA"/>
+                <constraint firstAttribute="bottom" secondItem="Oon-jj-KwQ" secondAttribute="bottom" id="bE5-0Y-ZP6"/>
+                <constraint firstItem="vdA-QH-Obv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fUI-dA-4bI"/>
+                <constraint firstAttribute="trailing" secondItem="Oon-jj-KwQ" secondAttribute="trailing" id="hs9-tH-RHV"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backButton" destination="tb2-JE-bJY" id="MrO-En-83l"/>
+                <outlet property="logoButton" destination="AKr-fk-ztA" id="y6f-f6-WLx"/>
+                <outlet property="roundButton" destination="4ma-Xh-sR0" id="Q9s-DI-gXA"/>
+                <outlet property="searchText" destination="yaG-AQ-4Vj" id="kCe-Jb-73p"/>
+                <outlet property="statusBarHeightConstraint" destination="Yuq-Ow-BoM" id="3n4-pd-kvx"/>
+                <outlet property="statusBarView" destination="vdA-QH-Obv" id="buF-5T-U4M"/>
+                <outlet property="titleLabel" destination="zBZ-L3-Ldb" id="uoB-hY-WnA"/>
+                <outletCollection property="rightButtons" destination="9Cq-g3-xPu" collectionClass="NSMutableArray" id="MX9-jU-2fj"/>
+                <outletCollection property="rightButtons" destination="DG8-0t-P27" collectionClass="NSMutableArray" id="sxl-Wa-lAH"/>
+                <outletCollection property="rightButtons" destination="IrB-D5-l0E" collectionClass="NSMutableArray" id="evQ-wC-DhI"/>
+            </connections>
+            <point key="canvasLocation" x="-317.60000000000002" y="-79.160419790104953"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="broadcast" width="33" height="33"/>
+        <image name="favorit2" width="34" height="34"/>
+        <image name="iconMypage" width="24" height="24"/>
+        <image name="iconSearch" width="24" height="24"/>
+        <image name="wordmarkCeluvtv" width="130" height="30"/>
+    </resources>
+</document>

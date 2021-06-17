@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="VodCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="VodCell" rowHeight="-83" id="KGk-i7-Jjw" customClass="VodCell" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CH8-ro-lGA">
+                        <rect key="frame" x="0.0" y="0.0" width="395" height="119.5"/>
+                        <connections>
+                            <action selector="clickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="mAI-6G-Zhf"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W55-8a-XBe">
+                        <rect key="frame" x="186" y="18" width="189" height="41"/>
+                        <string key="text">2018 SOBA 본무대,
+모모랜드 하이라이트</string>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
+                        <color key="textColor" red="0.28627450980392155" green="0.28627450980392155" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" verticalHuggingPriority="251" image="LivePlaceHolder" translatesAutoresizingMaskIntoConstraints="NO" id="p0A-eD-FiI">
+                        <rect key="frame" x="20" y="16" width="156" height="88"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="156" id="okD-6P-8fk"/>
+                            <constraint firstAttribute="height" constant="88" id="oxK-bD-daq"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="소리바다 어워즈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8IW-fn-Q5R">
+                        <rect key="frame" x="186" y="83" width="133.5" height="17"/>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
+                        <color key="textColor" red="0.47843137254901957" green="0.47843137254901957" blue="0.47843137254901957" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="253" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="1,500" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2k0-xl-a4P">
+                        <rect key="frame" x="341.5" y="83" width="33.5" height="17"/>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Thin" family="Apple SD Gothic Neo" pointSize="14"/>
+                        <color key="textColor" red="0.47843137250000001" green="0.47843137250000001" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y6p-p4-HQx">
+                        <rect key="frame" x="23" y="119" width="349" height="0.5"/>
+                        <color key="backgroundColor" red="0.8784313725490196" green="0.8784313725490196" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.69999999999999996" id="lXz-nr-eOg"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="playIc" translatesAutoresizingMaskIntoConstraints="NO" id="mes-Rv-wki">
+                        <rect key="frame" x="324.5" y="85.5" width="12" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="9ee-kJ-m51"/>
+                            <constraint firstAttribute="width" constant="12" id="9sy-G7-RB9"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Y6p-p4-HQx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="23" id="3rU-Cb-LyX"/>
+                    <constraint firstItem="CH8-ro-lGA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="5EN-3j-5GM"/>
+                    <constraint firstItem="p0A-eD-FiI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="B0m-nd-Z23"/>
+                    <constraint firstItem="8IW-fn-Q5R" firstAttribute="leading" secondItem="p0A-eD-FiI" secondAttribute="trailing" constant="10" id="GhZ-2d-1ai"/>
+                    <constraint firstItem="mes-Rv-wki" firstAttribute="leading" secondItem="8IW-fn-Q5R" secondAttribute="trailing" priority="750" constant="5" id="Qjl-AA-Klp"/>
+                    <constraint firstItem="CH8-ro-lGA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="W7Q-WX-hnu"/>
+                    <constraint firstItem="Y6p-p4-HQx" firstAttribute="top" secondItem="2k0-xl-a4P" secondAttribute="bottom" constant="19" id="WpH-uw-aME"/>
+                    <constraint firstAttribute="trailing" secondItem="2k0-xl-a4P" secondAttribute="trailing" constant="20" id="Ycg-mO-0Ay"/>
+                    <constraint firstAttribute="bottom" secondItem="CH8-ro-lGA" secondAttribute="bottom" id="aZo-Bf-eSG"/>
+                    <constraint firstItem="mes-Rv-wki" firstAttribute="centerY" secondItem="2k0-xl-a4P" secondAttribute="centerY" id="b8l-0Q-ZUf"/>
+                    <constraint firstItem="Y6p-p4-HQx" firstAttribute="top" secondItem="8IW-fn-Q5R" secondAttribute="bottom" constant="19" id="cLh-yK-I5q"/>
+                    <constraint firstItem="W55-8a-XBe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="cg1-n0-qZy"/>
+                    <constraint firstItem="2k0-xl-a4P" firstAttribute="leading" secondItem="mes-Rv-wki" secondAttribute="trailing" constant="5" id="cmI-2K-am4"/>
+                    <constraint firstAttribute="trailing" secondItem="W55-8a-XBe" secondAttribute="trailing" constant="20" id="fce-7G-8wp"/>
+                    <constraint firstAttribute="trailing" secondItem="Y6p-p4-HQx" secondAttribute="trailing" constant="23" id="ncu-L7-9Zk"/>
+                    <constraint firstAttribute="trailing" secondItem="CH8-ro-lGA" secondAttribute="trailing" id="pdG-eJ-U16"/>
+                    <constraint firstItem="W55-8a-XBe" firstAttribute="leading" secondItem="p0A-eD-FiI" secondAttribute="trailing" constant="10" id="tjr-gh-ZOP"/>
+                    <constraint firstAttribute="bottom" secondItem="Y6p-p4-HQx" secondAttribute="bottom" id="ukd-Iz-CLg"/>
+                    <constraint firstItem="p0A-eD-FiI" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="uxF-mW-CoJ"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                        <real key="value" value="-1"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cntImgView" destination="mes-Rv-wki" id="wZw-rk-9TA"/>
+                <outlet property="vodSubTitleLabel" destination="8IW-fn-Q5R" id="gh3-oU-rb6"/>
+                <outlet property="vodThumbImageView" destination="p0A-eD-FiI" id="aRM-4E-pi0"/>
+                <outlet property="vodTitleLabel" destination="W55-8a-XBe" id="guA-rV-4X7"/>
+                <outlet property="watchCntLb" destination="2k0-xl-a4P" id="w82-5r-s1f"/>
+            </connections>
+            <point key="canvasLocation" x="-1090.4000000000001" y="-131.33433283358323"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="LivePlaceHolder" width="400" height="225"/>
+        <image name="playIc" width="23" height="20.5"/>
+    </resources>
+</document>

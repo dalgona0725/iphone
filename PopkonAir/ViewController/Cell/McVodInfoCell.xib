@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Medium.otf">
+            <string>NotoSansCJKkr-Medium</string>
+        </array>
+        <array key="NotoSansCJKkr-Regular.otf">
+            <string>NotoSansCJKkr-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="McVodInfoCell" id="VRy-9s-8yW" customClass="McVodInfoCell" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="98"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VRy-9s-8yW" id="x4O-W2-FR1">
+                <rect key="frame" x="0.0" y="0.0" width="410" height="97.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0E-dB-tph">
+                        <rect key="frame" x="5" y="3" width="400" height="91.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="iLe-RN-3NB">
+                                <rect key="frame" x="15" y="15" width="370" height="43"/>
+                                <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="12"/>
+                                <color key="textColor" red="0.31764705879999999" green="0.31764705879999999" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GvN-c6-dvo">
+                                <rect key="frame" x="15" y="60" width="370" height="16.5"/>
+                                <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="11"/>
+                                <color key="textColor" red="0.32941176470588235" green="0.33000001311302185" blue="0.33000001311302185" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GvN-c6-dvo" firstAttribute="top" secondItem="iLe-RN-3NB" secondAttribute="bottom" constant="2" id="5iq-Sl-jqf"/>
+                            <constraint firstAttribute="trailing" secondItem="iLe-RN-3NB" secondAttribute="trailing" constant="15" id="6aq-dO-mbg"/>
+                            <constraint firstItem="iLe-RN-3NB" firstAttribute="leading" secondItem="B0E-dB-tph" secondAttribute="leading" constant="15" id="IXd-iM-NTA"/>
+                            <constraint firstItem="iLe-RN-3NB" firstAttribute="top" secondItem="B0E-dB-tph" secondAttribute="top" constant="15" id="MGd-Xd-Exd"/>
+                            <constraint firstAttribute="trailing" secondItem="GvN-c6-dvo" secondAttribute="trailing" constant="15" id="N8g-mu-0e5"/>
+                            <constraint firstAttribute="bottom" secondItem="GvN-c6-dvo" secondAttribute="bottom" constant="15" id="hvH-81-lSN"/>
+                            <constraint firstItem="GvN-c6-dvo" firstAttribute="leading" secondItem="B0E-dB-tph" secondAttribute="leading" constant="15" id="zz7-dW-dBt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.8099295661" green="0.8099295661" blue="0.8099295661" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="B0E-dB-tph" secondAttribute="bottom" constant="3" id="2ZT-IO-Zvo"/>
+                    <constraint firstItem="B0E-dB-tph" firstAttribute="leading" secondItem="x4O-W2-FR1" secondAttribute="leading" constant="5" id="8K3-Qh-Yrn"/>
+                    <constraint firstAttribute="trailing" secondItem="B0E-dB-tph" secondAttribute="trailing" constant="5" id="EvN-a9-9Y4"/>
+                    <constraint firstItem="B0E-dB-tph" firstAttribute="top" secondItem="x4O-W2-FR1" secondAttribute="top" constant="3" id="MUL-Z6-uUZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="vodTitleLabel" destination="iLe-RN-3NB" id="MnY-0m-zZh"/>
+                <outlet property="vodUpdateLabel" destination="GvN-c6-dvo" id="cEg-GF-CQV"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

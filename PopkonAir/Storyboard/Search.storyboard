@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Bold.otf">
+            <string>NotoSansCJKkr-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Search View Controller-->
+        <scene sceneID="0V4-ZG-bya">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wey-Em-IUn" customClass="SearchViewController" customModule="PopkonAir" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BsY-r5-SdB"/>
+                        <viewControllerLayoutGuide type="bottom" id="K9Q-Wp-xLA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mAG-v8-P7O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="112" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cgM-fv-hSe">
+                                <rect key="frame" x="20" y="40" width="335" height="627"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="wey-Em-IUn" id="w9T-2t-kN5"/>
+                                    <outlet property="delegate" destination="wey-Em-IUn" id="fbg-ob-MPT"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HmI-YR-nw3" userLabel="BCTypeView" customClass="SJTabView" customModule="PopkonAir" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="nRj-eG-Xum"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showBottomLine" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomLineColor">
+                                        <color key="value" red="0.81176470590000005" green="0.81176470590000005" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="wordmarkCeluvtv" translatesAutoresizingMaskIntoConstraints="NO" id="3jf-xE-XNk">
+                                <rect key="frame" x="78.5" y="70" width="218" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="218" id="Ejw-xd-xx5"/>
+                                    <constraint firstAttribute="height" constant="25" id="zK1-I6-hlq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="noResult" translatesAutoresizingMaskIntoConstraints="NO" id="o58-3C-8DD">
+                                <rect key="frame" x="123.5" y="269.5" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="8ef-jE-wxz"/>
+                                    <constraint firstAttribute="width" constant="128" id="YhD-rR-byh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="검색결과가 없습니다" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQZ-eo-wPS">
+                                <rect key="frame" x="16" y="417.5" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PeV-Sr-ZVj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85098039219999999" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="3jf-xE-XNk" firstAttribute="centerX" secondItem="mAG-v8-P7O" secondAttribute="centerX" id="DRD-I4-gNu"/>
+                            <constraint firstItem="3jf-xE-XNk" firstAttribute="top" secondItem="HmI-YR-nw3" secondAttribute="bottom" constant="30" id="IAx-Ra-NMg"/>
+                            <constraint firstItem="HmI-YR-nw3" firstAttribute="top" secondItem="BsY-r5-SdB" secondAttribute="bottom" id="Lal-aO-H1m"/>
+                            <constraint firstItem="o58-3C-8DD" firstAttribute="centerY" secondItem="mAG-v8-P7O" secondAttribute="centerY" id="MoJ-24-gvr"/>
+                            <constraint firstItem="cgM-fv-hSe" firstAttribute="top" secondItem="HmI-YR-nw3" secondAttribute="bottom" id="OlB-2E-ahY"/>
+                            <constraint firstAttribute="trailing" secondItem="HmI-YR-nw3" secondAttribute="trailing" id="PbY-QA-KFB"/>
+                            <constraint firstItem="o58-3C-8DD" firstAttribute="centerX" secondItem="mAG-v8-P7O" secondAttribute="centerX" id="SMk-ol-kD4"/>
+                            <constraint firstItem="iQZ-eo-wPS" firstAttribute="leading" secondItem="mAG-v8-P7O" secondAttribute="leadingMargin" id="Vh1-2d-nd1"/>
+                            <constraint firstAttribute="trailing" secondItem="cgM-fv-hSe" secondAttribute="trailing" constant="20" id="Yd1-B2-gER"/>
+                            <constraint firstItem="cgM-fv-hSe" firstAttribute="leading" secondItem="mAG-v8-P7O" secondAttribute="leading" constant="20" id="d1B-f5-zm1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iQZ-eo-wPS" secondAttribute="trailing" id="dgN-8h-GOI"/>
+                            <constraint firstItem="K9Q-Wp-xLA" firstAttribute="top" secondItem="cgM-fv-hSe" secondAttribute="bottom" id="frS-3l-8Mc"/>
+                            <constraint firstItem="iQZ-eo-wPS" firstAttribute="top" secondItem="o58-3C-8DD" secondAttribute="bottom" constant="20" id="ibF-GB-YNn"/>
+                            <constraint firstItem="HmI-YR-nw3" firstAttribute="leading" secondItem="mAG-v8-P7O" secondAttribute="leading" id="son-sd-mfJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EBc-BC-MD9"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="bgLogoImageView" destination="3jf-xE-XNk" id="ACV-W2-gmD"/>
+                        <outlet property="noResultImageView" destination="o58-3C-8DD" id="ECq-c7-7yk"/>
+                        <outlet property="noResultLabel" destination="iQZ-eo-wPS" id="PM1-xQ-sO0"/>
+                        <outlet property="tableView" destination="cgM-fv-hSe" id="SnO-Nb-pAO"/>
+                        <outlet property="typeView" destination="HmI-YR-nw3" id="GS5-oe-N2e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6sP-OM-dSC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="-1908"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="noResult" width="129" height="129"/>
+        <image name="wordmarkCeluvtv" width="130" height="30"/>
+    </resources>
+</document>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Bold.otf">
+            <string>NotoSansCJKkr-Bold</string>
+        </array>
+        <array key="NotoSansCJKkr-Regular.otf">
+            <string>NotoSansCJKkr-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PoliceChatView" customModule="PopkonAir" customModuleProvider="target">
+            <connections>
+                <outlet property="chatSubviewTop" destination="0VS-nc-KRr" id="TJO-vN-56f"/>
+                <outlet property="chatTableView" destination="2sF-fj-oO0" id="JDs-81-2ax"/>
+                <outlet property="contentView" destination="e6D-H3-kYI" id="8tj-xo-dT5"/>
+                <outlet property="sirenOnLabel" destination="FhB-P5-pye" id="TAJ-5s-AAU"/>
+                <outlet property="stopSirenButton" destination="Ami-x8-GKT" id="ijC-lY-BFT"/>
+                <outlet property="upperSubviewHeight" destination="nPf-TW-R4Q" id="bQf-fb-V1P"/>
+                <outlet property="warningView" destination="H7Q-Tk-g5F" id="oDc-8W-Il4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="e6D-H3-kYI">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="280"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H7Q-Tk-g5F">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ami-x8-GKT">
+                            <rect key="frame" x="6" y="5.5" width="108" height="43"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="43" id="L5S-yX-maR"/>
+                                <constraint firstAttribute="width" constant="108" id="mec-rB-Sfn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="22"/>
+                            <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="STOP" image="icon_Siren02">
+                                <color key="titleColor" red="0.37647058823529411" green="0.18823529411764706" blue="0.082352941176470587" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </state>
+                            <connections>
+                                <action selector="stopSirenWithSender:" destination="-1" eventType="touchUpInside" id="JOM-yc-bMX"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="경고음 송출 중" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhB-P5-pye">
+                            <rect key="frame" x="208" y="14" width="156" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="156" id="h7s-YF-fpf"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.94901960784313721" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="Ami-x8-GKT" firstAttribute="leading" secondItem="H7Q-Tk-g5F" secondAttribute="leading" constant="6" id="1iI-Xd-gnQ"/>
+                        <constraint firstAttribute="trailing" secondItem="FhB-P5-pye" secondAttribute="trailing" constant="11" id="JeC-S4-DwN"/>
+                        <constraint firstItem="Ami-x8-GKT" firstAttribute="centerY" secondItem="H7Q-Tk-g5F" secondAttribute="centerY" id="URF-oj-Sre"/>
+                        <constraint firstAttribute="height" constant="54" id="nPf-TW-R4Q"/>
+                        <constraint firstItem="FhB-P5-pye" firstAttribute="centerY" secondItem="H7Q-Tk-g5F" secondAttribute="centerY" id="pbH-Ku-qhH"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2sF-fj-oO0">
+                    <rect key="frame" x="0.0" y="54" width="375" height="226"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="2sF-fj-oO0" firstAttribute="top" secondItem="H7Q-Tk-g5F" secondAttribute="bottom" id="0VS-nc-KRr"/>
+                <constraint firstItem="H7Q-Tk-g5F" firstAttribute="trailing" secondItem="e6D-H3-kYI" secondAttribute="trailing" id="CrS-30-RPt"/>
+                <constraint firstItem="2sF-fj-oO0" firstAttribute="leading" secondItem="e6D-H3-kYI" secondAttribute="leading" id="NIz-ml-ISp"/>
+                <constraint firstItem="2sF-fj-oO0" firstAttribute="trailing" secondItem="e6D-H3-kYI" secondAttribute="trailing" id="YhI-3o-3hY"/>
+                <constraint firstAttribute="bottom" secondItem="2sF-fj-oO0" secondAttribute="bottom" id="a2v-Jg-kVp"/>
+                <constraint firstItem="H7Q-Tk-g5F" firstAttribute="leading" secondItem="e6D-H3-kYI" secondAttribute="leading" id="aaG-dB-C1U"/>
+                <constraint firstItem="H7Q-Tk-g5F" firstAttribute="top" secondItem="e6D-H3-kYI" secondAttribute="top" id="fvD-yW-IBY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="DdZ-Jn-bYf"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_Siren02" width="19.5" height="22.5"/>
+    </resources>
+</document>

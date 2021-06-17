@@ -1,0 +1,309 @@
+
+/* Class = "UILabel"; text = "1위"; ObjectID = "0MC-lj-oc6"; */
+"0MC-lj-oc6.text" = "1위";
+
+/* Class = "UILabel"; text = "시청인원"; ObjectID = "13y-VZ-wMD"; */
+"13y-VZ-wMD.text" = "시청인원";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "2wv-xk-xrq"; */
+"2wv-xk-xrq.normalTitle" = "Start";
+
+/* Class = "UIButton"; normalTitle = "팝콘1개"; ObjectID = "3UK-5y-G4l"; */
+"3UK-5y-G4l.normalTitle" = "팝콘1개";
+
+/* Class = "UILabel"; text = "0개"; ObjectID = "3jL-0X-9MF"; */
+"3jL-0X-9MF.text" = "0개";
+
+/* Class = "UILabel"; text = "팬클럽선택"; ObjectID = "4lg-cd-Ukh"; */
+"4lg-cd-Ukh.text" = "팬클럽선택";
+
+/* Class = "UILabel"; text = "해당 컨텐츠가 없습니다"; ObjectID = "5TF-5Y-AGD"; */
+"5TF-5Y-AGD.text" = "해당 컨텐츠가 없습니다";
+
+/* Class = "UILabel"; text = "리스트업 아이템"; ObjectID = "5uH-pn-i9r"; */
+"5uH-pn-i9r.text" = "리스트업 아이템";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6eD-ma-UCy"; */
+"6eD-ma-UCy.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "확인"; ObjectID = "6pf-9p-74R"; */
+"6pf-9p-74R.normalTitle" = "확인";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "73L-dj-f0t"; */
+"73L-dj-f0t.text" = "Label";
+
+/* Class = "UILabel"; text = "시작시간"; ObjectID = "7KP-rk-aU8"; */
+"7KP-rk-aU8.text" = "시작시간";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "7X6-a3-VEL"; */
+"7X6-a3-VEL.text" = "1";
+
+/* Class = "UILabel"; text = "보유팝콘"; ObjectID = "8Vx-bJ-1K9"; */
+"8Vx-bJ-1K9.text" = "더 많은 컨텐츠를\n즐기시려면 로그인!";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "9Ng-cI-hg7"; */
+"9Ng-cI-hg7.text" = "100";
+
+/* Class = "UILabel"; text = "제목"; ObjectID = "9WS-YT-XWx"; */
+"9WS-YT-XWx.text" = "제목";
+
+/* Class = "UIButton"; normalTitle = "사용안함"; ObjectID = "9yd-FO-CgZ"; */
+"9yd-FO-CgZ.normalTitle" = "사용안함";
+
+/* Class = "UILabel"; text = "1위"; ObjectID = "A2z-t7-PiK"; */
+"A2z-t7-PiK.text" = "1위";
+
+/* Class = "UILabel"; text = "내 등급"; ObjectID = "AAP-zd-rAg"; */
+"AAP-zd-rAg.text" = "내 등급";
+
+/* Class = "UIButton"; normalTitle = "로그인"; ObjectID = "Aag-Qh-BGg"; */
+"Aag-Qh-BGg.normalTitle" = "LogIn";
+
+/* Class = "UILabel"; text = "nickname"; ObjectID = "Ajr-YT-vQ8"; */
+"Ajr-YT-vQ8.text" = "nickname";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "BYC-Dj-747"; */
+"BYC-Dj-747.text" = "0";
+
+/* Class = "UILabel"; text = "즐겨찾는 회원수"; ObjectID = "Drf-G0-Uhm"; */
+"Drf-G0-Uhm.text" = "즐겨찾는 회원수";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "E9L-po-NXZ"; */
+"E9L-po-NXZ.text" = "Label";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "EMh-2K-qlg"; */
+"EMh-2K-qlg.text" = "1";
+
+/* Class = "UILabel"; text = "방송제목"; ObjectID = "ErQ-sD-aAd"; */
+"ErQ-sD-aAd.text" = "방송제목";
+
+/* Class = "UITabBarItem"; title = "Live"; ObjectID = "FIA-vd-WNN"; */
+"FIA-vd-WNN.title" = "Live";
+
+/* Class = "UILabel"; text = "1위"; ObjectID = "Fci-po-bk0"; */
+"Fci-po-bk0.text" = "1위";
+
+/* Class = "UILabel"; text = " PM 3:45 -"; ObjectID = "Fgb-Gu-HLA"; */
+"Fgb-Gu-HLA.text" = " PM 3:45 -";
+
+/* Class = "UILabel"; text = "9999개"; ObjectID = "GVy-i0-VX1"; */
+"GVy-i0-VX1.text" = "9999개";
+
+/* Class = "UILabel"; text = "0명"; ObjectID = "IHg-nh-1OH"; */
+"IHg-nh-1OH.text" = "0명";
+
+/* Class = "UITextField"; placeholder = "PASSWORD"; ObjectID = "IqN-qH-dBc"; */
+"IqN-qH-dBc.placeholder" = "PASSWORD";
+
+/* Class = "UILabel"; text = "TITLE"; ObjectID = "JEl-vG-Z8R"; */
+"JEl-vG-Z8R.text" = "TITLE";
+
+/* Class = "UITabBarItem"; title = "내정보"; ObjectID = "KOl-ch-Lje"; */
+"KOl-ch-Lje.title" = "내정보";
+
+/* Class = "UILabel"; text = "참여자 목록"; ObjectID = "Kde-Rn-OD1"; */
+"Kde-Rn-OD1.text" = "참여자 목록";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Khs-H1-mLl"; */
+"Khs-H1-mLl.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "1위"; ObjectID = "L7J-lD-8bx"; */
+"L7J-lD-8bx.text" = "1위";
+
+/* Class = "UILabel"; text = "비회원"; ObjectID = "Lab-tT-RLd"; */
+"Lab-tT-RLd.text" = "비회원";
+
+/* Class = "UILabel"; text = "0명"; ObjectID = "M9T-eZ-R2M"; */
+"M9T-eZ-R2M.text" = "0명";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MAv-qR-hEN"; */
+"MAv-qR-hEN.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "로그인"; ObjectID = "MFk-M7-wD7"; */
+"MFk-M7-wD7.normalTitle" = "로그인";
+
+/* Class = "UIButton"; normalTitle = "개인 UCC"; ObjectID = "Mnl-ti-JcD"; */
+"Mnl-ti-JcD.normalTitle" = "개인 UCC";
+
+/* Class = "UILabel"; text = "19세 방송"; ObjectID = "NFz-6H-a1b"; */
+"NFz-6H-a1b.text" = "19세 방송";
+
+/* Class = "UILabel"; text = "순딩 로이"; ObjectID = "NZM-CG-8F4"; */
+"NZM-CG-8F4.text" = "순딩 로이";
+
+/* Class = "UILabel"; text = "1000명"; ObjectID = "NgD-Ng-4XY"; */
+"NgD-Ng-4XY.text" = "1000명";
+
+/* Class = "UILabel"; text = "1위"; ObjectID = "O5W-jE-wbC"; */
+"O5W-jE-wbC.text" = "1위";
+
+/* Class = "UILabel"; text = "MC순위"; ObjectID = "PFD-xT-bdb"; */
+"PFD-xT-bdb.text" = "MC순위";
+
+/* Class = "UILabel"; text = "nickname"; ObjectID = "RJ0-0J-YS2"; */
+"RJ0-0J-YS2.text" = "nickname";
+
+/* Class = "UILabel"; text = "Cast Name"; ObjectID = "T0g-wH-9am"; */
+"T0g-wH-9am.text" = "Cast Name";
+
+/* Class = "UILabel"; text = "팬수"; ObjectID = "T9U-i5-02I"; */
+"T9U-i5-02I.text" = "팬수";
+
+/* Class = "UITabBarItem"; title = "랭킹"; ObjectID = "UGU-4i-jHh"; */
+"UGU-4i-jHh.title" = "Ranking";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ub6-aV-70P"; */
+"Ub6-aV-70P.text" = "Label";
+
+/* Class = "UILabel"; text = "로그인"; ObjectID = "Uud-Bv-e3s"; */
+"Uud-Bv-e3s.text" = "LogIn";
+
+/* Class = "UILabel"; text = "3G LTE 사용"; ObjectID = "Ve2-Um-XfE"; */
+"Ve2-Um-XfE.text" = "3G LTE 사용";
+
+/* Class = "UILabel"; text = "참여수"; ObjectID = "Vy9-hG-1Xl"; */
+"Vy9-hG-1Xl.text" = "참여수";
+
+/* Class = "UILabel"; text = "MC Name"; ObjectID = "WfZ-l4-0XJ"; */
+"WfZ-l4-0XJ.text" = "MC Name";
+
+/* Class = "UILabel"; text = "1위"; ObjectID = "WtW-Uk-AlM"; */
+"WtW-Uk-AlM.text" = "1위";
+
+/* Class = "UITableViewSection"; headerTitle = "Section-3"; ObjectID = "XF8-bT-eup"; */
+"XF8-bT-eup.headerTitle" = "Section-3";
+
+/* Class = "UITabBarItem"; title = "다시보기"; ObjectID = "Xhz-MJ-uLA"; */
+"Xhz-MJ-uLA.title" = "다시보기";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "Y9D-sc-u3z"; */
+"Y9D-sc-u3z.text" = "1";
+
+/* Class = "UILabel"; text = "입장료"; ObjectID = "YpV-LI-APW"; */
+"YpV-LI-APW.text" = "입장료";
+
+/* Class = "UIViewController"; title = "Search"; ObjectID = "ZDA-9d-aLA"; */
+"ZDA-9d-aLA.title" = "Search";
+
+/* Class = "UILabel"; text = "Cast Name"; ObjectID = "Zgg-Sl-CKF"; */
+"Zgg-Sl-CKF.text" = "Cast Name";
+
+/* Class = "UILabel"; text = " PM 3:45 -"; ObjectID = "a28-NJ-KQu"; */
+"a28-NJ-KQu.text" = " PM 3:45 -";
+
+/* Class = "UIButton"; normalTitle = "방송하기"; ObjectID = "aRy-4T-rtT"; */
+"aRy-4T-rtT.normalTitle" = "방송하기";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bV1-77-5VZ"; */
+"bV1-77-5VZ.text" = "Label";
+
+/* Class = "UILabel"; text = "1위"; ObjectID = "bk3-E9-Uny"; */
+"bk3-E9-Uny.text" = "1위";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "bq2-EP-eyx"; */
+"bq2-EP-eyx.text" = "0";
+
+/* Class = "UILabel"; text = "nickname"; ObjectID = "cD7-Cj-HbV"; */
+"cD7-Cj-HbV.text" = "nickname";
+
+/* Class = "UIButton"; normalTitle = "실버"; ObjectID = "ceU-lE-Mse"; */
+"ceU-lE-Mse.normalTitle" = "실버";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "cuI-2C-GhC"; */
+"cuI-2C-GhC.text" = "1";
+
+/* Class = "UILabel"; text = "열혈팬 목록"; ObjectID = "dR8-UB-BT8"; */
+"dR8-UB-BT8.text" = "열혈팬 목록";
+
+/* Class = "UILabel"; text = "방송형태"; ObjectID = "dkd-cP-yX9"; */
+"dkd-cP-yX9.text" = "방송형태";
+
+/* Class = "UILabel"; text = "방송주제 분류"; ObjectID = "doP-Su-Fhb"; */
+"doP-Su-Fhb.text" = "방송주제 분류";
+
+/* Class = "UILabel"; text = "방송자"; ObjectID = "eBh-lx-cVv"; */
+"eBh-lx-cVv.text" = "방송자";
+
+/* Class = "UITextField"; placeholder = "ID"; ObjectID = "eMR-nx-0Sa"; */
+"eMR-nx-0Sa.placeholder" = "ID";
+
+/* Class = "UILabel"; text = "검색결과가 없습니다"; ObjectID = "ejz-Au-lpS"; */
+"ejz-Au-lpS.text" = "검색결과가 없습니다";
+
+/* Class = "UILabel"; text = "방송화질"; ObjectID = "fCg-3d-qyd"; */
+"fCg-3d-qyd.text" = "방송화질";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "fZc-Jh-4dT"; */
+"fZc-Jh-4dT.text" = "0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ggx-9b-1ij"; */
+"ggx-9b-1ij.text" = "Label";
+
+/* Class = "UILabel"; text = "MC Name"; ObjectID = "ghF-iN-sTc"; */
+"ghF-iN-sTc.text" = "MC Name";
+
+/* Class = "UINavigationItem"; title = "즐겨찾기"; ObjectID = "h0f-Im-Txb"; */
+"h0f-Im-Txb.title" = "즐겨찾기";
+
+/* Class = "UILabel"; text = "열혈팬 목록"; ObjectID = "h5k-eQ-0yI"; */
+"h5k-eQ-0yI.text" = "열혈팬 목록";
+
+/* Class = "UIButton"; normalTitle = "표준"; ObjectID = "hYK-Ca-Tpo"; */
+"hYK-Ca-Tpo.normalTitle" = "표준";
+
+/* Class = "UILabel"; text = "즐찾수"; ObjectID = "i6Q-q4-Vbg"; */
+"i6Q-q4-Vbg.text" = "즐찾수";
+
+/* Class = "UILabel"; text = "종료시간"; ObjectID = "jGH-5J-q0m"; */
+"jGH-5J-q0m.text" = "종료시간";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "jog-8Z-UuT"; */
+"jog-8Z-UuT.headerTitle" = " ";
+
+/* Class = "UILabel"; text = "비밀번호"; ObjectID = "l2k-Bg-q8r"; */
+"l2k-Bg-q8r.text" = "비밀번호";
+
+/* Class = "UIButton"; normalTitle = "회원가입"; ObjectID = "lJZ-Ve-SZU"; */
+"lJZ-Ve-SZU.normalTitle" = "Join";
+
+/* Class = "UITabBarItem"; title = "즐겨찾기"; ObjectID = "lYE-Fl-J3z"; */
+"lYE-Fl-J3z.title" = "즐겨찾기";
+
+/* Class = "UILabel"; text = "1위"; ObjectID = "oKk-sK-z2x"; */
+"oKk-sK-z2x.text" = "1위";
+
+/* Class = "UILabel"; text = "추천수"; ObjectID = "oLA-bQ-yOx"; */
+"oLA-bQ-yOx.text" = "추천수";
+
+/* Class = "UIButton"; normalTitle = "일반방송"; ObjectID = "p9s-4E-EWz"; */
+"p9s-4E-EWz.normalTitle" = "일반방송";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "pFd-cy-4Zo"; */
+"pFd-cy-4Zo.text" = "0";
+
+/* Class = "UILabel"; text = "Cast Name"; ObjectID = "q64-gO-tcE"; */
+"q64-gO-tcE.text" = "Cast Name";
+
+/* Class = "UILabel"; text = "nickname"; ObjectID = "qpi-Ft-q4B"; */
+"qpi-Ft-q4B.text" = "nickname";
+
+/* Class = "UILabel"; text = "즐겨찾는 회원수"; ObjectID = "sur-2t-zBU"; */
+"sur-2t-zBU.text" = "즐겨찾는 회원수";
+
+/* Class = "UILabel"; text = "MC Name"; ObjectID = "uiR-Zq-kTd"; */
+"uiR-Zq-kTd.text" = "MC Name";
+
+/* Class = "UILabel"; text = "팬수"; ObjectID = "vFH-5v-QiZ"; */
+"vFH-5v-QiZ.text" = "팬수";
+
+/* Class = "UILabel"; text = " PM 3:45 -"; ObjectID = "vhp-fC-jkd"; */
+"vhp-fC-jkd.text" = " PM 3:45 -";
+
+/* Class = "UILabel"; text = "MC순위"; ObjectID = "wM0-RP-yqo"; */
+"wM0-RP-yqo.text" = "MC Rank";
+
+/* Class = "UILabel"; text = "내 등급"; ObjectID = "y3N-Ho-QkJ"; */
+"y3N-Ho-QkJ.text" = "My Level";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "z0W-UI-YwC"; */
+"z0W-UI-YwC.text" = "Label";

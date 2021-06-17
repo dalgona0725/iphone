@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Medium.otf">
+            <string>NotoSansCJKkr-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="3CX-tV-sV3" customClass="CounselHeaderView" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zE8-IQ-0GP" userLabel="view">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="등록일" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIq-VE-CoP">
+                            <rect key="frame" x="10" y="0.0" width="90" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="90" id="l4h-eW-r03"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
+                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제목" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHu-Ma-srv">
+                            <rect key="frame" x="100" y="0.0" width="135" height="40"/>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
+                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="답변여부" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u91-ME-HOK">
+                            <rect key="frame" x="285" y="0.0" width="80" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="BE5-zP-y7G"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
+                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.91837469370000002" green="0.9385027319" blue="0.98502029719999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="IIq-VE-CoP" secondAttribute="bottom" id="4eP-6h-SGT"/>
+                        <constraint firstAttribute="bottom" secondItem="u91-ME-HOK" secondAttribute="bottom" id="BgN-f6-yC0"/>
+                        <constraint firstItem="nHu-Ma-srv" firstAttribute="top" secondItem="zE8-IQ-0GP" secondAttribute="top" id="ESS-13-Uxn"/>
+                        <constraint firstItem="u91-ME-HOK" firstAttribute="top" secondItem="zE8-IQ-0GP" secondAttribute="top" id="K6N-E7-oYz"/>
+                        <constraint firstItem="IIq-VE-CoP" firstAttribute="top" secondItem="zE8-IQ-0GP" secondAttribute="top" id="PVh-QX-i56"/>
+                        <constraint firstItem="IIq-VE-CoP" firstAttribute="leading" secondItem="zE8-IQ-0GP" secondAttribute="leading" constant="10" id="Yxx-bQ-Rx4"/>
+                        <constraint firstAttribute="bottom" secondItem="nHu-Ma-srv" secondAttribute="bottom" id="dPe-wk-G7K"/>
+                        <constraint firstItem="u91-ME-HOK" firstAttribute="leading" secondItem="nHu-Ma-srv" secondAttribute="trailing" constant="50" id="jlT-TE-8Aj"/>
+                        <constraint firstItem="nHu-Ma-srv" firstAttribute="leading" secondItem="IIq-VE-CoP" secondAttribute="trailing" id="ma8-Sg-18K"/>
+                        <constraint firstAttribute="trailing" secondItem="u91-ME-HOK" secondAttribute="trailing" constant="10" id="xRW-VF-Z87"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zTl-lo-9fv" firstAttribute="trailing" secondItem="zE8-IQ-0GP" secondAttribute="trailing" id="03r-To-TPq"/>
+                <constraint firstItem="zE8-IQ-0GP" firstAttribute="bottom" secondItem="zTl-lo-9fv" secondAttribute="bottom" id="2Cl-fG-QM1"/>
+                <constraint firstItem="zE8-IQ-0GP" firstAttribute="leading" secondItem="zTl-lo-9fv" secondAttribute="leading" id="G3m-oZ-ZkL"/>
+                <constraint firstItem="zE8-IQ-0GP" firstAttribute="top" secondItem="zTl-lo-9fv" secondAttribute="top" id="pHl-Zb-H5g"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="zTl-lo-9fv"/>
+            <connections>
+                <outlet property="replyedLabel" destination="u91-ME-HOK" id="X25-Mb-laI"/>
+                <outlet property="titleLabel" destination="nHu-Ma-srv" id="Km9-hQ-Zhf"/>
+                <outlet property="writeDateLabel" destination="IIq-VE-CoP" id="vhq-SB-k2K"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="55"/>
+        </view>
+    </objects>
+</document>
